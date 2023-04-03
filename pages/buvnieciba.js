@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import ContactsBar from '@/components/contacts-bar/contacts-bar'
 import Navigation from '@/components/navigation/navigation'
+import MobileNavigation from '@/components/mobile-nav/mobile-nav'
 import Banner from '@/components/banner/banner'
 import Contacts from '@/components/contacts/contacts'
 
@@ -16,6 +17,7 @@ export default function Buvnieciba() {
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
+      <MobileNavigation></MobileNavigation>
       <Banner title="Par LM Group Buve" image="team.jpg">
       Uzņēmums LM Group Buve tika dibināts 2005. gada 10. janvārī un šobrīd jau 15. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar remontdarbiem un būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību. Mūsu profesionālā meistaru komanda parūpēsies, lai dzīvokļa vai privātmājas remonts vai būvniecība neprasītu no Tevis laiku, galvassāpes un liekus līdzekļus.
       </Banner>

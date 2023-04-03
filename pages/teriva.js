@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import ContactsBar from '@/components/contacts-bar/contacts-bar'
 import Navigation from '@/components/navigation/navigation'
+import MobileNavigation from '@/components/mobile-nav/mobile-nav'
 import Banner from '@/components/banner/banner'
 import Contacts from '@/components/contacts/contacts'
 
@@ -16,6 +17,7 @@ export default function Teriva() {
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
+      <MobileNavigation></MobileNavigation>
       <Banner title="Teriva Pārsegums" image="teriva.png">
         TERIVA ir patentēta starpstāvu pārsegumu sistēma, kas atbilst Eiropas standartam LST EN 15037 un ir marķēta ar CE marķējumu.
         <br/><br/>

@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import ContactsBar from '@/components/contacts-bar/contacts-bar'
 import Navigation from '@/components/navigation/navigation'
+import MobileNavigation from '@/components/mobile-nav/mobile-nav'
 import Banner from '@/components/banner/banner'
 import Contacts from '@/components/contacts/contacts'
 
@@ -18,6 +19,7 @@ export default function Warmotech() {
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
+      <MobileNavigation></MobileNavigation>
       <Banner title="Warmotech" image="warmotech.jpg">
         Warmotech ir silts un efektīvi elastīgs risinājums kā arī maksimāla snieguma garants gan loga ražotājam, gan katram būvēt gribētājam. <br/>
         PRO80 un PRO90 risinājums, Type-C un HSN bīdāmās sistēmas, M-Frame rāmju sistēma kā arī Warmotech PA un kombinētie sistēmu risinājumi.

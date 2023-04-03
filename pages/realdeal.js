@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import ContactsBar from '@/components/contacts-bar/contacts-bar'
 import Navigation from '@/components/navigation/navigation'
+import MobileNavigation from '@/components/mobile-nav/mobile-nav'
 import Banner from '@/components/banner/banner'
 import Contacts from '@/components/contacts/contacts'
 
@@ -18,6 +19,7 @@ export default function RealDeal() {
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
+      <MobileNavigation></MobileNavigation>
       <Banner title="Tas ir RealDeal" image="bg3.jpg">
         ProClima tvaika membranas griestiem un sienām. Intello sistēma. Logu iestrāde, hermetizācija, ventilācijas risinājumi, klūsās enervent sistēmas, profesionāli beramie un iepūšamie siltumizolācijas materiāli un daudz kas cits.
       </Banner>
