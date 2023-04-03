@@ -57,7 +57,7 @@ export default function RealDeal() {
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/membranas.jpg"})`,
+            backgroundImage: `url(${"/img/membranas.JPG"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}
