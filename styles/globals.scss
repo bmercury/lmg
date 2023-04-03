@@ -1,0 +1,222 @@
+@import "tachyons.scss";
+@import "colors.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Inter:wght@100;300;400;700&display=swap');
+
+$main-font: "Abhaya Libre";
+$sec-font: "Inter";
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: $background;
+}
+
+.brd {
+    border: 1px solid red;
+
+    .brd {
+        border-color: blue;
+    }
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a, p, span {
+    color: $arctic;
+}
+
+h1, h2{
+    color: $gold;
+}
+
+h1, h2{
+    font-family: $main-font;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 0.2rem;
+}
+
+h3, h4, h5, h6, a, span, p, button {
+    font-family: $sec-font;
+    font-weight: 300;
+}
+
+.bg-marble-o20 {
+    background-image: url('/img/marble-o20.png');
+    background-size: cover;
+}
+.bg-marble-o10 {
+    background-image: url('/img/marble-o10.png');
+    background-size: cover;
+    // background-attachment: fixed;
+}
+.bg-marble-o5 {
+    background-image: url('/img/marble-o5.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.review-item {
+    background-color: $alt2;
+    border-radius: 6px;
+
+    h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .star {
+        color: $gold;
+        font-size: 0.4em;
+    }
+    .nostar {
+        font-size: 0.4em;
+    }
+}
+
+.button-gold {
+    background-color: $gold;
+    background-image: linear-gradient(45deg, $gold, darken($gold, 10));
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+
+    
+    &:hover {
+        transition: all 0.5s ease;
+        background-image: linear-gradient(45deg, lighten($gold, 10), darken($gold, 0));
+    }
+}
+
+
+.warmotech-flying {
+    position: relative;
+    top: -100px;
+    margin-bottom: -50px;
+
+    img {
+        transition: all 0.35s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.05) translateY(-10px);
+        }
+    }
+
+}
+
+@media only screen and (min-width: 720px) {
+    .warmotech-flying {
+        position: relative;
+        top: -200px;
+        margin-bottom: -100px;
+    
+        img {
+            transition: all 0.35s ease;
+            cursor: pointer;
+    
+            &:hover {
+                transform: scale(1.05) translateY(-10px);
+            }
+        }
+    
+    }
+}
+
+
+.mobile-photos {
+    min-height: 40vh;
+    max-height: 40vh;
+}
+
+@media only screen and (min-width: 720px) {
+    .mobile-photos {
+    min-height: 70vh;
+  }
+}
+
+.drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("/img/marble-o10.png");
+    z-index: 3;
+
+    transition: left 0.5s ease;
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+
+        a {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.navclosed {
+    left: -100vw;
+}
+
+.active {
+        &::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 3px;
+            background-color: $gold;
+            background-image: linear-gradient(45deg, $gold, darken($gold, 15));
+            position: relative;
+            bottom: -5px;
+            left: 0;
+            opacity: 1;
+            transition: 0.5s ease all;
+        }
+}
+
+.navlink {
+    $navbar-padding: 0.3rem;
+    padding-left: $navbar-padding;
+        padding-right: $navbar-padding;
+        display: inline-block;
+        transition: opacity 0.5s ease;
+        text-decoration: none;
+
+        &::after{
+            content: '';
+            display: block;
+            height: 3px;
+            background-color: $gold;
+            background-image: linear-gradient(45deg, $gold, darken($gold, 15));
+            position: relative;
+            bottom: -5px;
+            left: 0;
+            opacity: 0;
+            width: 0%;
+            transition: 0.5s ease all;
+        }
+
+        &:hover {
+            &::after {
+                width: 100%;
+                opacity: 1;
+            }
+        }
+}

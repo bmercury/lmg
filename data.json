@@ -1,0 +1,39 @@
+{
+    "kontakti": {
+        "lmg": {
+            "phone": "22 342 440",
+            "email": "info@lmgroup.lv"
+        },
+        "matiss": {
+            "name": "Matīss Legzdiņš",
+            "phone": "22 342 440",
+            "email": "info@lmgroup.lv",
+            "role": "Valdes loceklis"
+        },
+        "roberts": {
+            "name": "Roberts Viļumsons",
+            "phone": "27 712 772",
+            "email": "info@realdeal.lv",
+            "role": "Būvniecības konsultācijas",
+            "role2": "Ventilācijas risinājumi"
+        },
+        "aleksandrs": {
+            "name": "Aleksandrs Zuiko",
+            "phone": "27 714 774",
+            "email": "aleksandrs@realdeal.lv",
+            "role": "Warmotech projektu vadītājs"
+        },
+        "guntars": {
+            "name": "Guntars Pētersons",
+            "phone": "20 031 293",
+            "email": "guntars.petersons@lmgroup.lv",
+            "role": "Būvniecības projektu vadītājs"
+        },
+        "arnita": {
+            "name": "Arnita Melkumjana",
+            "phone": "26 313 133",
+            "email": "gramatvediba@lmgroup.lv",
+            "role": "Galvenā grāmatvede"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+
+@import "../../styles/colors.scss";
+
+$navbar-padding: 0.3rem;
+
+.navigation {
+    a {
+        padding-left: $navbar-padding;
+        padding-right: $navbar-padding;
+        display: inline-block;
+        transition: opacity 0.5s ease;
+        text-decoration: none;
+
+        // &::after{
+        //     content: '';
+        //     display: block;
+        //     height: 3px;
+        //     background-color: $gold;
+        //     background-image: linear-gradient(45deg, $gold, darken($gold, 15));
+        //     position: relative;
+        //     bottom: -5px;
+        //     left: 0;
+        //     transition: 0.5s ease all;
+        // }
+
+        // &:hover {
+        //     &::after {
+        //         width: 100%;
+        //         opacity: 1;
+        //     }
+        // }
+    }
+}
+
+.logo {
+    width: 50vw;
+
+    @media only screen and (min-width: 960px) {
+        width: 14vw;
+    }
+}
