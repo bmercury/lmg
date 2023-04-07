@@ -1,4 +1,5 @@
-$banner-height: 60vh;
+$banner-height-smaller: 68vh;
+$banner-height: 75vh;
 $banner-height-large: 80vh;
 
 
@@ -8,18 +9,72 @@ $banner-height-large: 80vh;
     color: white;
     background-size: cover;
     text-align: center;
+
+    h1 {
+        font-size: 1.7rem;
+        max-width: 90%;
+    }
+
+    p {
+        font-size: 0.8rem;
+        max-width: 90%;
+    }
+
+    @media only screen and (min-width: 376px) {
+        h1 {
+            font-size: 2rem;
+            max-width: 90%;
+        }
+    
+        p {
+            font-size: 1rem;
+            max-width: 90%;
+        }
+    }
+
+    @media only screen and (min-height: 741px) {
+        min-height: $banner-height-smaller;
+        font-size: 10rem;
+    }
     @media only screen and (min-width: 720px) {
         min-height: $banner-height-large;
+        font-size: 10rem;
     }
+
+    @media only screen and (min-width: 1024px) {
+        min-height: $banner-height-large;
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) {
+        min-height: $banner-height-large;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
 }
 
 .tint {
     position: absolute;
     width: 100vw;
-    height: $banner-height;
+    min-height: $banner-height;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.6));
 
+    @media only screen and (min-height: 741px) {
+        min-height: $banner-height-smaller;
+    }
     @media only screen and (min-width: 720px) {
+        min-height: $banner-height-large;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        min-height: $banner-height-large;
+    }
+
+    @media only screen and (min-width: 1280px) {
         min-height: $banner-height-large;
     }
 }

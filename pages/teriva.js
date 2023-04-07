@@ -10,15 +10,15 @@ import Contacts from '@/components/contacts/contacts'
 export default function Teriva() {
   return (
     <>
-      <title>Teriva Pārsegums</title>
-        <meta name="og:title" content="Teriva Pārsegums"/>
+      <title>LM Group Buve | Teriva Pārsegums</title>
+        <meta name="og:title" content="LM Group Buve | Teriva Pārsegums"/>
         <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
         <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Teriva Pārsegums" image="teriva.png">
+      <Banner title="Teriva Pārsegums" image="teriva-gal-1.png">
         TERIVA ir patentēta starpstāvu pārsegumu sistēma, kas atbilst Eiropas standartam LST EN 15037 un ir marķēta ar CE marķējumu.
         <br/><br/>
         TERIVA pārsegumu sistēmas sastāv no vieglām dzelzsbetona sijām, dobiem betona blokiem vai polistirola blokiem ( TERIVA LIGHT sistēmā ), kā arī monolīta betona pārklājuma, kas tiek izveidots jau pēc pārseguma sistēmas elementu uzstādīšanas. Šāda pārseguma konstrukcija ir viegla, izturīga un energofektīva, kas atbilst А, А+ un А++ energoefektivitātes klases prasībām.

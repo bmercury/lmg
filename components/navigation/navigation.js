@@ -11,7 +11,9 @@ export default function Navigation() {
       <>
         <div className="absolute flex w-100 mt5 justify-center  items-center flex-column z-1">
           <div className="mb3">
-            <img className={css.logo} src="/img/lmg.png"></img>
+            <Link  href="/">
+                <img className={css.logo} src="/img/lmg.png"></img>
+            </Link>
           </div>
           <nav className={css.navigation+" dn db-l"}>
             <Link  className={router.pathname == "/" ? "active" : "navlink"} href="/">Sākums</Link>

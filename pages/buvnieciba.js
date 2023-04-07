@@ -10,8 +10,8 @@ import Contacts from '@/components/contacts/contacts'
 export default function Buvnieciba() {
   return (
     <>
-        <title>Par LM Group Buve</title>
-        <meta name="og:title" content="Par LM Group Buve"/>
+        <title>LM group Buve | Par Mums</title>
+        <meta name="og:title" content="LM group Buve | Par Mums"/>
         <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
         <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
 
@@ -19,14 +19,16 @@ export default function Buvnieciba() {
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
       <Banner title="Par LM Group Buve" image="team.jpg">
-      Uzņēmums LM Group Buve tika dibināts 2005. gada 10. janvārī un šobrīd jau 15. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar remontdarbiem un būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību. Mūsu profesionālā meistaru komanda parūpēsies, lai dzīvokļa vai privātmājas remonts vai būvniecība neprasītu no Tevis laiku, galvassāpes un liekus līdzekļus.
+      Uzņēmums LM Group Buve tika dibināts 2005. gada 10. janvārī un šobrīd jau 15. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar remontdarbiem un būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
+      <br/><br/>
+      Mūsu profesionālā meistaru komanda parūpēsies, lai dzīvokļa vai privātmājas remonts vai būvniecība neprasītu no Tevis laiku, galvassāpes un liekus līdzekļus.
       </Banner>
 
 
     {/* START Services */}
     <div className='flex flex-column items-center justify-center pv6 bg-marble-o10'>
-        <h2 className='w-90 f2 gold tc mt0 mb2'>Būvniecības Pakalpojumi</h2>
-        <p className='tc mt0 mb5 w-60 w-100-l'>Uztici savas sapņu mājas būvniecību mums!</p>
+        <h2 className='w-80 w-90-l f2 gold tc mt0 mb2'>Būvniecības Pakalpojumi</h2>
+        <p className='tc mt0 mb5 w-80 w-100-l'>Uztici savas sapņu mājas būvniecību mums!</p>
 
         <div className='flex flex-column flex-row-l justify-center mt4'>
 

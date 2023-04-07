@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import ContactsBar from '@/components/contacts-bar/contacts-bar'
 import Navigation from '@/components/navigation/navigation'
@@ -11,8 +12,8 @@ export default function Warmotech() {
   return (
     <>
       <Head>
-        <title>Warmotech</title>
-        <meta name="og:title" content="Warmotech"/>
+        <title>LM Group Buve | Warmotech</title>
+        <meta name="og:title" content="LM Group Buve | Warmotech"/>
         <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
         <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
       </Head>
@@ -26,23 +27,23 @@ export default function Warmotech() {
       </Banner>
 
 
-    <div className='flex flex-column items-center pv5 pv6-l bg-marble-o10'>
+    <div className='flex flex-column items-center pv5 pt6-l bg-marble-o10'>
 
         <div className='flex flex-column flex-row-l w-80 w-60-l warmotech-flying'>
             <div className='w-third-l mb4 mb0-l  animate__animated animate__fadeInLeft'>
-                <a title="Warmotech Poliframe Risinājums" href="https://www.warmotech.lt/lv/products/poliframe-profiliai" target="_blank" rel="noopener noreferrer">
+                <Link  href="/warmotech/poliframe">
                     <img src="/img/poliframe.png"></img>
-                </a>
+                </Link>
             </div>
             <div className='w-third-l mb4 mb0-l mh4-l animate__animated animate__fadeInUp'>
-                <a title="Warmotech Paneļu Risinājums" href="https://www.warmotech.lt/lv/products/panels" target="_blank" rel="noopener noreferrer">
+                <Link  href="/warmotech/paneli">
                 <img src="/img/paneli.png"></img>
-                </a>
+                </Link>
             </div>
             <div className='w-third-l mb4 mb0-l animate__animated animate__fadeInRight'>
-                <a title="Warmotech Mezgli" href="https://www.warmotech.lt/lv/designs" target="_blank" rel="noopener noreferrer">
+                <Link  href="/warmotech/mezgli">
                 <img src="/img/mezgli.png"></img>
-                </a>
+                </Link>
             </div>
         </div>
 
