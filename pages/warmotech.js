@@ -8,6 +8,8 @@ import MobileNavigation from '@/components/mobile-nav/mobile-nav'
 import Banner from '@/components/banner/banner'
 import Contacts from '@/components/contacts/contacts'
 
+import {kontakti} from "../data.json"
+
 export default function Warmotech() {
   return (
     <>
@@ -18,12 +20,11 @@ export default function Warmotech() {
         <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
       </Head>
 
-      <ContactsBar></ContactsBar>
+      <ContactsBar phone={kontakti.aleksandrs.phone} email={kontakti.aleksandrs.email}></ContactsBar>
       <Navigation></Navigation>
-      <MobileNavigation></MobileNavigation>
-      <Banner title="Warmotech" image="warmotech.jpg">
-        Warmotech ir silts un efektīvi elastīgs risinājums kā arī maksimāla snieguma garants gan loga ražotājam, gan katram būvēt gribētājam. <br/>
-        PRO80 un PRO90 risinājums, Type-C un HSN bīdāmās sistēmas, M-Frame rāmju sistēma kā arī Warmotech PA un kombinētie sistēmu risinājumi.
+      <MobileNavigation phone={kontakti.aleksandrs.phone} email={kontakti.aleksandrs.email}></MobileNavigation>
+      <Banner title="Warmotech" image="warmotech/bg2.jpg">
+        Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
 
@@ -54,9 +55,21 @@ export default function Warmotech() {
                 <div className='w-80-l'>
                     <h3 className='b f2 gold tc tl-l mt0'>Stingrs Materiāls, Elastīgs Risinājums</h3>
                     <p className='arctic tc tl-l'>
-                        Warmotech paneļi <br/><br/>
-                        Warmotech logu montāžas profili <br/><br/>
-                        Poliframe logu montāžas profili
+                    Piedāvājām dažādas Warmotech sistēmas:<br/><br/>
+
+                    <div className='flex mb3'>
+                        <span className='gold mr2'>—</span> <span>PRO80 un PRO90 iznesto logu risinājums siltumizolācijas slānī</span>
+                    </div>
+                    <div className='flex mb3'>
+                        <span className='gold mr2'>—</span> <span>Type-C un HSN bīdāmu sistēmu pacelšanai virs cokola silto grīdu objektos</span>
+                    </div>
+                    <div className='flex mb3'>
+                        <span className='gold mr2'>—</span> <span>M-Frame rāmju sistēma šauro bloku loga ailēm</span>
+                    </div>
+                    <div className='flex'>
+                        <span className='gold mr2'>—</span> <span>Warmotech PA un lokšņu kombinētie sistēmu risinājumi</span>
+                    </div>
+
                     </p>
                 </div>
             </div>

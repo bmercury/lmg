@@ -103,7 +103,7 @@ export default function Teriva() {
         <p>
         TERIVA saliekamie pārsegumi ir viens no labākajiem risinājumiem ēku rekonstrukcijā
         <br/><br/>
-        Nostiprināt vecos, esošos pārsegumus vai mainīt tos uz jauniem - tas ir sarežģīts process, kas saistīts ar ievērojamām izmaksām. Pārseguma paneļus caur logu ailēm nav iespējams padot, tāpat dzelzsbetona monolīto pārsegumu ir ļoti sarežģīti izveidot, jo esošās konstrukcijas ir nepieciešams demontēt, lai izveidotu pārseguma balstus un esošās konstrukcijas var neizturēt lielu šķidrā betona daudzumu, tādēļ Izmantojot TERIVA saliekamo pārsegumu sistēmas, to var izdarīt daudz ērtāk un lētāk.
+        Nostiprināt vecos, esošos pārsegumus vai mainīt tos uz jauniem - tas ir sarežģīts process, kas saistīts ar ievērojamām izmaksām. Pārseguma paneļus caur logu ailēm nav iespējams padot, tāpat dzelzsbetona monolīto pārsegumu ir ļoti sarežģīti izveidot, jo esošās konstrukcijas ir nepieciešams demontēt, lai izveidotu pārseguma balstus un esošās konstrukcijas var neizturēt lielu šķidrā betona daudzumu, tādēļ Izmantojot TERIVA saliekamo pārsegumu sistēmas, to var izdarīt daudz ērtāk un lētāk. TERIVA pārseguma montāžas posmi: 1. Sienās izveido atveres "ligzdas" pārseguma siju ievietošanai.
         <br/>
         TERIVA pārseguma montāžas posmi:
         1. Sienās izveido atveres "ligzdas" pārseguma siju ievietošanai <br/><br/>

@@ -21,9 +21,8 @@ export default function Poliframe() {
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Warmotech Poliframe" image="warmotech.jpg">
-        Warmotech ir silts un efektīvi elastīgs risinājums kā arī maksimāla snieguma garants gan loga ražotājam, gan katram būvēt gribētājam. <br/>
-        PRO80 un PRO90 risinājums, Type-C un HSN bīdāmās sistēmas, M-Frame rāmju sistēma kā arī Warmotech PA un kombinētie sistēmu risinājumi.
+      <Banner title="Warmotech Poliframe" image="warmotech/bg1.jpg">
+      Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
 
@@ -57,7 +56,7 @@ export default function Poliframe() {
                         Izgatavots ar iefrēzētiem atslēgas savienojumiem profila galos, vieglai un precīzai savienojuma izveidei vienam ar otru; <br/><br/>
                         Standarta profila biezums - 85mm and 100mm.
                     </p>
-                    <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/poliframe-hde" target="_blank" rel="noopener noreferrer" title="Warmotech Poliframe HDE">Lasīt vairāk</a>
+                    {/* <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/poliframe-hde" target="_blank" rel="noopener noreferrer" title="Warmotech Poliframe HDE">Lasīt vairāk</a> */}
                 </div>
             </div>
 
@@ -84,7 +83,7 @@ export default function Poliframe() {
                         Standarta platums - 60mm un 70mm; <br/><br/>
                         Izgriežams no paneļa vajadzīgajā augstumā.
                     </p>
-                    <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/hde-fr" target="_blank" rel="noopener noreferrer" title="Warmotech HDE FR">Lasīt vairāk</a>
+                    {/* <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/hde-fr" target="_blank" rel="noopener noreferrer" title="Warmotech HDE FR">Lasīt vairāk</a> */}
                 </div>
             </div>
 
@@ -100,7 +99,7 @@ export default function Poliframe() {
                     Standarta platums - 60mm and 70mm; <br/><br/>
                     Izgriežams no paneļa vajadzīgajā augstumā.
                     </p>
-                    <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/hde-pjaustiniai" target="_blank" rel="noopener noreferrer" title="Warmotech HDE Profili">Lasīt vairāk</a>
+                    {/* <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/hde-pjaustiniai" target="_blank" rel="noopener noreferrer" title="Warmotech HDE Profili">Lasīt vairāk</a> */}
                 </div>
             </div>
             <div className='w-40-l flex justify-center mt0 mb4 mb0-l mt0-l'>

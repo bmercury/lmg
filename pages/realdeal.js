@@ -7,6 +7,8 @@ import MobileNavigation from '@/components/mobile-nav/mobile-nav'
 import Banner from '@/components/banner/banner'
 import Contacts from '@/components/contacts/contacts'
 
+import {kontakti} from "../data.json"
+
 export default function RealDeal() {
   return (
     <>
@@ -17,11 +19,13 @@ export default function RealDeal() {
         <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
       </Head>
 
-      <ContactsBar></ContactsBar>
+      <ContactsBar phone={kontakti.roberts.phone} email={kontakti.roberts.email}></ContactsBar>
       <Navigation></Navigation>
-      <MobileNavigation></MobileNavigation>
-      <Banner title="Tas ir RealDeal" image="bg3.jpg">
-        ProClima tvaika membranas griestiem un sienām. Intello sistēma. Logu iestrāde, hermetizācija, ventilācijas risinājumi, klūsās enervent sistēmas, profesionāli beramie un iepūšamie siltumizolācijas materiāli un daudz kas cits.
+      <MobileNavigation phone={kontakti.roberts.phone} email={kontakti.roberts.email}></MobileNavigation>
+      <Banner title="RealDeal - Jūsu īstais darījums" image="bg3.jpg">
+        Zināšanu, risinājumu un augstvērtīgu būvniecības materiālu sadaļa, kurā mēs rūpējamies par Jūsu māju vai ēku tehnisko risinājumu piemērotību. Konstrukcijas sastāva, mezglu atbilstības un norobežojošo slāņu jautājumi -  sīki par visu, kas veidos Jūsu ēkas energo efektīvās ekspluotācijas priekšnosacījumus un reālu nākotnes ekonomisko mijiedarbību.
+        <br/><br/>
+        Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c.
       </Banner>
 
 
@@ -34,15 +38,28 @@ export default function RealDeal() {
                 <div className='w-90'>
                     <h3 className='b f3 f2-l gold tl mt0'>Nepērc cenu - izzini risinājumu</h3>
                     <p className='arctic tl'>
-                        1. Norobežojošās Konstrukcijas & Logi <br/><br/>
-                        2. Ventilācijas Risinājumi <br/><br/>
-                        3. Būvniecības Konsultācijas Un Materiāli
+                        Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru<br/><br/>
+                        <div className='flex mb3'>
+                            <span className='gold mr2'>—</span> <span>Konstrukcijas apzināšana un izveide </span>
+                        </div>
+                        <div className='flex mb3'>
+                            <span className='gold mr2'>—</span> <span>Norobežojošās konstrukcijas slāņi un logu iestrādes risinājumi </span>
+                        </div>
+                        <div className='flex mb3'>
+                            <span className='gold mr2'>—</span> <span>Ventilācijas sistēmas un pareiza mikroklimata pārvaldība </span>
+                        </div>
+                        <div className='flex mb3'>
+                            <span className='gold mr2'>—</span> <span>Būvniecības procesu konsultācijas un materiālu tirdzniecība</span>
+                        </div>
+                        <div className='flex'>
+                            <span className='gold mr2'>—</span> <span>Rekonstrukcijas objekti un atbilstošas siltināšanas metodes</span>
+                        </div>
                     </p>
                 </div>
             </div>
 
             <div className='w-40-l flex justify-center mb5 mb0-l'>
-                <div className='w-90'>
+                <div className='w-70'>
                     <img src="/img/partners/realdeal.png"></img>    
                 </div>
             </div>
@@ -64,11 +81,12 @@ export default function RealDeal() {
         >
         </div>
         <div className='w-50-l pt4 pb5 pt0-l pb0-l flex justify-center items-center bg-marble-o5'>
-            <div>
-            <h3 className='b f3 f2-l gold tl'>ProClima</h3>
-            <p className='arctic'><span className='gold mr2'>—</span>Tvaika membrānas griestiem un sienām</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Mitrum drošības maksimums</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Intello sistēma, sausi un silti</p>
+            <div className='w-90 w-70-l'>
+            <h3 className='b f3 gold tl'>“Sauss ir silts” ProClima risinājumi</h3>
+            
+            <p className='arctic flex'><span className='gold mr2'>—</span>Tvaika slāņu sistēmas griestiem un sienām</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Mitrum drošības maksimums arējos slāņos</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Grūti aizsniedzamu vietu hermetizācija un ēkas blīvums</p>
             </div>
         </div>
     </div>
@@ -77,17 +95,20 @@ export default function RealDeal() {
     {/* RIGHT */}
     <div className='flex flex-column-reverse flex-row-l'>
         <div className='w-50-l pt4 pb5 flex justify-center items-center bg-marble-o5'>
-        <div>
-            <h3 className='b f3 f2-l gold tl'>Monolītās jumta <br/> un fasādes membrānas</h3>
-            <p className='arctic'><span className='gold mr2'>—</span>FrontWA un Fronta QUATRO</p>
-            <p className='arctic'><span className='gold mr2'>—</span>UV noturīga</p>
-            <p className='arctic'><span className='gold mr2'>—</span>10m ūdens staba pretestība</p>
+        <div className='w-90 w-70-l'>
+            <h3 className='b f3 gold tl'>“Dzīves kvalitāte un mikroklimats”<br/>Ventilācijas risinājumi</h3>
+            <p className='arctic flex'><span className='gold mr2'>—</span>“Enervent” efektivitās rekuperācijas sistēmas</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Augstākā snieguma iekārtas un gaisa vadi</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Mitruma atguves maksimums līdz 78% </p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Maksimālā siltuma atguve līdz -38`C </p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Gaisa kvalitātes monitorings un viedā vadība</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Tirgus garantijas maksimums 5gadi (darbs un sistēma)</p>
             </div>
         </div>
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/roof.jpg"})`,
+            backgroundImage: `url(${"/img/ventilation.jpg"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}
@@ -108,11 +129,13 @@ export default function RealDeal() {
         >
         </div>
         <div className='w-50-l pt4 pb5 pt0-l pb0-l flex justify-center items-center bg-marble-o5'>
-        <div>
-            <h3 className='b f3 f2-l gold tl'>Logu iestrāde, šuves</h3>
-            <p className='arctic'><span className='gold mr2'>—</span>Contega Solido IQ</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Grūti aizsniedzamu vietu maximāla<br/> hermetizācija</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Šuvju lenta Tescon</p>
+        <div className='w-90 w-70-l'>
+            <h3 className='b f3 gold tl'>Bloki un ar koka karkasiem<br/>saistīti jautājumi</h3>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Materiālu iegāde (visas veida bloki)</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Būvniecības darbi</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Karkasu montāžas darbi </p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Iekšējās apdares plāksnes (Fermacell, ģipsis vai OSB) </p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Piegāde uz objektu </p>
             </div>
         </div>
     </div>
@@ -121,17 +144,19 @@ export default function RealDeal() {
     {/* RIGHT */}
     <div className='flex flex-column-reverse flex-row-l'>
         <div className='w-50-l pt4 pb5 pa0-l flex justify-center items-center bg-marble-o5'>
-        <div>
-            <h3 className='b f3 f2-l gold tl'>Ventilācijas risinājumi</h3>
-            <p className='arctic'><span className='gold mr2'>—</span>Enervent sistēmas</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Augstākā snieguma ventilācija</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Gaisa kvalitātes nodrošināšana</p>
+        <div className='w-90 w-70-l'>
+            <h3 className='b f3 gold tl'>Jumta segumi un Cementšķiedras<br/> fasādes risinājumi</h3>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Jumta kopnes un to montāža “Freimans”</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Funkcionālo slāņu iestrāde un latošana (vēja un tvaika barjeras)</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Jumta segumu ieklāšana vai tikai materiālu iegāde (Budmat, Eternit)</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Noteku sistēmas “Flamingo”</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>Ventilējmās fasādes montāža un materiālu iegāde no “Cedral” vai “James Hardie”</p>
             </div>
         </div>
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/ventilation.jpg"})`,
+            backgroundImage: `url(${"/img/roof.jpg"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}

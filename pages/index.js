@@ -20,12 +20,12 @@ export default function Home() {
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner image="home.png" title="Premium Būvniecības Pakalpojumi"></Banner>
+      <Banner image="home.png" title="Būvniecības Pakalpojumi Un Materiāli"></Banner>
 
       <div className='flex flex-column flex-row-l'>
         <div
           style={{
-            backgroundImage: `url(${"/img/bg2.png"})`,
+            backgroundImage: `url(${"/img/bg2.jpeg"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover'
           }}
@@ -35,10 +35,13 @@ export default function Home() {
         <div className='pv5 pv4-l pv0-l w-100 w-50-l flex justify-center items-center bg-marble-o5'>
           <div>
             <h2 className='f2 gold mt2 mt4-l'>Kādēļ Izvēlēties Mūs?</h2>
-            <p className='arctic'><span className='gold mr2'>—</span>15+ Gadu pieredze</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Garantēta Kvalitāte</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Ātra Izpilde</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Profesionāla Attieksme</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Daudzu gadu pieredze</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Garantēta darba kvalitāte</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Augsta precizitāte un ātra Izpilde</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Profesionāla komanda</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Zināšanas un attieksme</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Jūsu saskaņotā tāme paliks nemainīga</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Materiālu piegāde</p>
           </div>
         </div>
       </div>

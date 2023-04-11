@@ -21,9 +21,8 @@ export default function Paneli() {
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Warmotech Paneļi" image="warmotech.jpg">
-        Warmotech ir silts un efektīvi elastīgs risinājums kā arī maksimāla snieguma garants gan loga ražotājam, gan katram būvēt gribētājam. <br/>
-        PRO80 un PRO90 risinājums, Type-C un HSN bīdāmās sistēmas, M-Frame rāmju sistēma kā arī Warmotech PA un kombinētie sistēmu risinājumi.
+      <Banner title="Warmotech Paneļi" image="warmotech/bg2.jpg">
+      Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
 

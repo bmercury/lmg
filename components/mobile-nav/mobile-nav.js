@@ -1,11 +1,12 @@
 import css from "./mobile-nav.module.scss"
+import {kontakti} from "../../data.json"
 
-export default function MobileNavigation() {
+export default function MobileNavigation({phone=kontakti.matiss.phone, email=kontakti.matiss.email}) {
     return (
       <>
         <div className={css.wrapper+" flex justify-around items-center pv3 ph2"}>
-            <button className={css.mail+" w-third"}><i class="fa-sharp fa-solid fa-envelope"></i></button>
-            <button className={css.phone+" w-third"}><i class="fa-solid fa-phone"></i></button>
+            <a href={"mailto:"+email} className={css.mail+" w-third tc"}><i class="fa-sharp fa-solid fa-envelope"></i></a>
+            <a href={"tel:"+phone} className={css.phone+" w-third tc"}><i class="fa-solid fa-phone"></i></a>
             <button id="hamburger" onClick={openNav} className={css.hamburger+" w-third"}><i class="fa-sharp fa-solid fa-bars"></i></button>
             <button id="times" onClick={closeNav} className={css.hamburger+" dn w-third"}><i class="fa-sharp fa-solid fa-times"></i></button>
         </div>

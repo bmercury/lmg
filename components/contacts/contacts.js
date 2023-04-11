@@ -45,7 +45,7 @@ export default function Contacts() {
           </div>
         </div>
         <footer className="tc pb4">
-          <span>© {new Date().getFullYear()} LM Group Buve</span>
+          <span>© {new Date().getFullYear()} LM GROUP BUVE</span>
         </footer>
       </>
     )

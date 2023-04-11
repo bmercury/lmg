@@ -18,60 +18,45 @@ export default function Buvnieciba() {
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Par LM Group Buve" image="team.jpg">
-      Uzņēmums LM Group Buve tika dibināts 2005. gada 10. janvārī un šobrīd jau 15. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar remontdarbiem un būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
+      <Banner title="Par LM Group Buve" image="bg2-alt.jpeg">
+      Uzņēmums LM GROUP BUVE tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
       <br/><br/>
-      Mūsu profesionālā meistaru komanda parūpēsies, lai dzīvokļa vai privātmājas remonts vai būvniecība neprasītu no Tevis laiku, galvassāpes un liekus līdzekļus.
+      Mūsu profesionālā meistaru komanda parūpēsies, lai būvniecība neprasītu no Jums laiku, galvassāpes un liekus līdzekļus.
       </Banner>
 
 
     {/* START Services */}
     <div className='flex flex-column items-center justify-center pv6 bg-marble-o10'>
         <h2 className='w-80 w-90-l f2 gold tc mt0 mb2'>Būvniecības Pakalpojumi</h2>
-        <p className='tc mt0 mb5 w-80 w-100-l'>Uztici savas sapņu mājas būvniecību mums!</p>
+        <p className='tc mt0 mb5 w-80 w-100-l'>Novadīsim un gudri pārvaldīsim visus Jūsu mājas būvniecības procesus!</p>
 
-        <div className='flex flex-column flex-row-l justify-center mt4'>
+        <div className='flex w-70 flex-column flex-row-l justify-center mt4'>
 
-            <div className='w-40-l flex justify-center mb4 mb0-l'>
-                <div className='w-80'>
-                    <h3 className='f4 gold tc mt0'>Pamatu Betonēšana</h3>
-                    <p className='arctic tc'>
-                        Lejam pamatus jebkurai privātmājai, garāžai, vaikalam vai vasarnīcai. Sākot ar pamatu iemērīšanu un būvbedres izrakšanu līdz siltināšanai, hidroizolācijai.
-                    </p>
+            <div className='w-50-l flex flex-column mb4 mb0-l'>
+                <div className='w-100'>
+                    <h3 className='f4 gold tc mt0'>Norobežojošo konstrukciju iestrāde</h3>
+                </div>
+                <div className='w-100'>
+                <div className='w-100'>
+                    <h3 className='f4 gold tc mt0'>Mūrēšanas un Karkasu Montāžas Darbi</h3>
+                </div>
+                    <h3 className='f4 gold tc mt0'>Fasādes apdares darbi</h3>
                 </div>
             </div>
 
-            <div className='w-40-l flex justify-center mb4 mb0-l'>
-            <div className='w-80'>
-                    <h3 className='f4 gold tc mt0'>Mūrēšanas Darbi</h3>
-                    <p className='arctic tc'>
-                        Mūrējam sienas un starpsienas ar jebkāda veida blokiem. Izmēri sākot ar 100mm līdz 500mm.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div className='flex flex-column flex-row-l justify-center mt5-l'>
-
-            <div className='w-40-l flex justify-center mb4 mb0-l'>
-                <div className='w-80'>
+            <div className='w-50-l flex flex-column mb4 mb0-l'>
+                <div className='w-100'>
                     <h3 className='f4 gold tc mt0'>Starpstāvu Pārsegumu Izbūve</h3>
-                    <p className='arctic tc'>
-                        Izbūvējam koka, dzelsbetona plākšņu vai monolīta dzelsbetona pārsegumus. Montējam koka sijas, gatavos logus, kā arī VELUX un ROTO jumta logus.
-                    </p>
                 </div>
-            </div>
-
-        <div className='w-40-l flex justify-center'>
-            <div className='w-80'>
-                    <h3 className='f4 gold tc mt0'>Jumtu Konstrukciju Montāža</h3>
-                    <p className='arctic tc'>
-                        Spāru, mūrlatu un krēslu montāža, jumta logu, vēja kastu, notekreņu montāža. Iespējams uzstādīt jumta papildelementus - laseni, sniega barjeras, kores un vejmalas.
-                    </p>
+                <div className='w-100'>
+                    <h3 className='f4 gold tc mt0'>Jumtu un jumta konstrukciju montāža</h3>
+                </div>
+                <div className='w-100'>
+                    <h3 className='f4 gold tc mt0'>Pamatu Betonēšana</h3>
                 </div>
             </div>
         </div>
+
 
     </div>
     {/* END Services */}
