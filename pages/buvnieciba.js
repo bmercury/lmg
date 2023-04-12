@@ -32,7 +32,7 @@ export default function Buvnieciba() {
 
         <div className='flex w-70 flex-column flex-row-l justify-center mt4'>
 
-            <div className='w-50-l flex flex-column mb4 mb0-l'>
+            <div className='w-50-l flex flex-column mb0 mb0-l'>
                 <div className='w-100'>
                     <h3 className='f4 gold tc mt0'>Norobežojošo konstrukciju iestrāde</h3>
                 </div>
@@ -44,7 +44,7 @@ export default function Buvnieciba() {
                 </div>
             </div>
 
-            <div className='w-50-l flex flex-column mb4 mb0-l'>
+            <div className='w-50-l flex flex-column mb0 mb0-l'>
                 <div className='w-100'>
                     <h3 className='f4 gold tc mt0'>Starpstāvu Pārsegumu Izbūve</h3>
                 </div>

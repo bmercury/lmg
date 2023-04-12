@@ -15,6 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,10 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/buvnieciba": [
+    "/realdeal": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/buvnieciba.js"
+      "static/chunks/pages/realdeal.js"
+    ],
+    "/teriva": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/teriva.js"
+    ],
+    "/warmotech": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/warmotech.js"
     ]
   },
   "ampFirstPages": []

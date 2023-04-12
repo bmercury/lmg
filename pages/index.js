@@ -48,7 +48,8 @@ export default function Home() {
 
       <div className='flex flex-column-reverse flex-row-l'>
           <div className='w-100 w-50-l flex justify-center items-center  bg-marble-o5'>
-            <div className='flex w-70 pt5 pa5-l pb3-l'>
+            <div className='flex flex-column w-70 w-50-l mb3 mb0-l'>
+                <h2 className='f2 gold tc mb0 mt5 mt4-l'>Partneri</h2>
                 <img className='o-80' src="/img/partners/partners.png"></img>
             </div>
           </div>
