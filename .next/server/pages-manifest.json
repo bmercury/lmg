@@ -3,7 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/realdeal": "pages/realdeal.js",
-  "/warmotech": "pages/warmotech.js",
   "/": "pages/index.js",
-  "/teriva": "pages/teriva.js"
+  "/buvnieciba": "pages/buvnieciba.js"
 }

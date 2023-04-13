@@ -74,7 +74,7 @@ export default function RealDeal() {
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/membranas.jpeg"})`,
+            backgroundImage: `url(${"/img/proclima.jpg"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}
@@ -96,7 +96,7 @@ export default function RealDeal() {
     <div className='flex flex-column-reverse flex-row-l'>
         <div className='w-50-l pt4 pb5 flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
-            <h3 className='b f3 gold tl'>“Dzīves kvalitāte un mikroklimats”<br/>Ventilācijas risinājumi</h3>
+            <h3 className='b f3 gold tl'>“Dzīves kvalitāte un mikroklimats”<br/>ventilācijas risinājumi</h3>
             <p className='arctic flex'><span className='gold mr2'>—</span>“Enervent” efektivitās rekuperācijas sistēmas</p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Augstākā snieguma iekārtas un gaisa vadi</p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Mitruma atguves maksimums līdz 78% </p>
@@ -122,7 +122,7 @@ export default function RealDeal() {
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/windows.jpg"})`,
+            backgroundImage: `url(${"/img/frame.jpg"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}
@@ -145,7 +145,7 @@ export default function RealDeal() {
     <div className='flex flex-column-reverse flex-row-l'>
         <div className='w-50-l pt4 pb5 pa0-l flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
-            <h3 className='b f3 gold tl'>Jumta segumi un Cementšķiedras<br/> fasādes risinājumi</h3>
+            <h3 className='b f3 gold tl'>Jumta segumi un cementšķiedras<br/> fasādes risinājumi</h3>
             <p className='arctic flex'><span className='gold mr2'>—</span>Jumta kopnes un to montāža “Freimans”</p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Funkcionālo slāņu iestrāde un latošana (vēja un tvaika barjeras)</p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Jumta segumu ieklāšana vai tikai materiālu iegāde (Budmat, Eternit)</p>

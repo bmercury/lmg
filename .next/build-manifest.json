@@ -30,20 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/buvnieciba": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/buvnieciba.js"
+    ],
     "/realdeal": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/realdeal.js"
-    ],
-    "/teriva": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/teriva.js"
-    ],
-    "/warmotech": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/warmotech.js"
     ]
   },
   "ampFirstPages": []

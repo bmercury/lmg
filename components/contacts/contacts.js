@@ -7,7 +7,7 @@ export default function Contacts() {
         <div id="kontakti" className={css.contacts+" flex flex-column items-center pb5 pv6-l"}>
           <h2 className="f2 tc w-70 w-100-l">Kā Varam Tev Palīdzēt?</h2>
           <div className="w-90 w-50-l mt3">
-            <div className="flex flex-column flex-row-l items-center justify-center">
+            <div className="flex flex-column flex-row-l items-center items-start-l justify-center">
               <div className="w-third-l mb4 mb0-l flex flex-column tc arctic">
                 <h3>{kontakti.matiss.name}</h3>
                 <a className="link" href={"tel:"+kontakti.matiss.phone} title="Zvanīt">{kontakti.matiss.phone}</a>

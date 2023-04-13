@@ -53,7 +53,7 @@ export default function Warmotech() {
         <div className='flex flex-column flex-row-l justify-center w-80 mt4 mb4'>
             <div className='w-40-l flex justify-center'>
                 <div className='w-80-l'>
-                    <h3 className='b f2 gold tc tl-l mt0'>Stingrs Materiāls, Elastīgs Risinājums</h3>
+                    <h3 className='b f2 gold tc tl-l mt0'>Stingrs materiāls, elastīgs risinājums</h3>
                     <p className='arctic tc tl-l'>
                     Piedāvājām dažādas Warmotech sistēmas:<br/><br/>
 

@@ -38,7 +38,7 @@ export default function Buvnieciba() {
                 </div>
                 <div className='w-100'>
                 <div className='w-100'>
-                    <h3 className='f4 gold tc mt0'>Mūrēšanas un Karkasu Montāžas Darbi</h3>
+                    <h3 className='f4 gold tc mt0'>Mūrēšanas un karkasu montāžas Darbi</h3>
                 </div>
                     <h3 className='f4 gold tc mt0'>Fasādes apdares darbi</h3>
                 </div>
@@ -46,13 +46,13 @@ export default function Buvnieciba() {
 
             <div className='w-50-l flex flex-column mb0 mb0-l'>
                 <div className='w-100'>
-                    <h3 className='f4 gold tc mt0'>Starpstāvu Pārsegumu Izbūve</h3>
+                    <h3 className='f4 gold tc mt0'>Starpstāvu pārsegumu izbūve</h3>
                 </div>
                 <div className='w-100'>
                     <h3 className='f4 gold tc mt0'>Jumtu un jumta konstrukciju montāža</h3>
                 </div>
                 <div className='w-100'>
-                    <h3 className='f4 gold tc mt0'>Pamatu Betonēšana</h3>
+                    <h3 className='f4 gold tc mt0'>Pamatu betonēšana</h3>
                 </div>
             </div>
         </div>
