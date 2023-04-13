@@ -14,14 +14,14 @@ export default function Poliframe() {
       <Head>
         <title>Warmotech | Poliframe | LM Group Buve</title>
         <meta name="og:title" content="Warmotech || Poliframe || LM Group Buve"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <meta name="og:description" content="Warmotech Poliframe HDE, HDE FR profili un HDE Profili. Labākais risinājums Tavam mājoklim!"/>        
+        <meta name="description" content="Warmotech Poliframe HDE, HDE FR profili un HDE Profili. Labākais risinājums Tavam mājoklim!" />
       </Head>
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Warmotech Poliframe" image="warmotech/bg1.jpg">
+      <Banner title="Warmotech Poliframe" image="warmotech/bg1.webp">
       Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
@@ -31,17 +31,17 @@ export default function Poliframe() {
     <div className='flex flex-column flex-row-l w-80 w-60-l warmotech-flying'>
             <div className='w-third-l mb4 mb0-l  animate__animated animate__fadeInLeft'>
                 <Link  href="/warmotech/poliframe">
-                    <img src="/img/poliframe.png"></img>
+                    <img src="/img/poliframe.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l mh4-l animate__animated animate__fadeInUp'>
                 <Link  href="/warmotech/paneli">
-                <img src="/img/paneli.png"></img>
+                <img src="/img/paneli.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l animate__animated animate__fadeInRight'>
                 <Link  href="/warmotech/mezgli">
-                <img src="/img/mezgli.png"></img>
+                <img src="/img/mezgli.webp"></img>
                 </Link>
             </div>
         </div>
@@ -62,7 +62,7 @@ export default function Poliframe() {
 
             <div className='w-40-l flex justify-center mt3 mb4 mb0-l mt0-l'>
                 <div className='w-50'>
-                    <img src="/img/warmotech/poliframe-hde.png"></img>    
+                    <img src="/img/warmotech/poliframe-hde.webp"></img>    
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@ export default function Poliframe() {
         <div className='flex flex-column flex-row-l justify-center w-80 mt4 mb4'>
             <div className='w-40-l flex justify-center  mt3 mb4 mb0-l mt0-l'>
                 <div className='w-50'>
-                    <img src="/img/warmotech/hde-fr.png"></img>    
+                    <img src="/img/warmotech/hde-fr.webp"></img>    
                 </div>
             </div>
             <div className='w-40-l flex justify-center'>
@@ -104,7 +104,7 @@ export default function Poliframe() {
             </div>
             <div className='w-40-l flex justify-center mt0 mb4 mb0-l mt0-l'>
                 <div className='w-50'>
-                    <img src="/img/warmotech/hde.png"></img>    
+                    <img src="/img/warmotech/hde.webp"></img>    
                 </div>
             </div>
 

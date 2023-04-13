@@ -15,14 +15,14 @@ export default function RealDeal() {
       <Head>
       <title>LM Group Buve | RealDeal</title>
         <meta name="og:title" content="LM Group Buve | RealDeal"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <meta name="og:description" content="RealDeal - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c."/>        
+        <meta name="description" content="RealDeal - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c." />
       </Head>
 
       <ContactsBar phone={kontakti.roberts.phone} email={kontakti.roberts.email}></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.roberts.phone} email={kontakti.roberts.email}></MobileNavigation>
-      <Banner title="RealDeal - Jūsu īstais darījums" image="bg3.jpg">
+      <Banner title="RealDeal - Jūsu īstais darījums" image="bg3.webp">
         Zināšanu, risinājumu un augstvērtīgu būvniecības materiālu sadaļa, kurā mēs rūpējamies par Jūsu māju vai ēku tehnisko risinājumu piemērotību. Konstrukcijas sastāva, mezglu atbilstības un norobežojošo slāņu jautājumi -  sīki par visu, kas veidos Jūsu ēkas energo efektīvās ekspluotācijas priekšnosacījumus un reālu nākotnes ekonomisko mijiedarbību.
         <br/><br/>
         Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c.
@@ -60,7 +60,7 @@ export default function RealDeal() {
 
             <div className='w-40-l flex justify-center mb5 mb0-l'>
                 <div className='w-70'>
-                    <img src="/img/partners/realdeal.png"></img>    
+                    <img src="/img/partners/realdeal.webp"></img>    
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ export default function RealDeal() {
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/proclima.jpg"})`,
+            backgroundImage: `url(${"/img/proclima.webp"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}
@@ -108,7 +108,7 @@ export default function RealDeal() {
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/ventilation.jpg"})`,
+            backgroundImage: `url(${"/img/ventilation.webp"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}
@@ -122,7 +122,7 @@ export default function RealDeal() {
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/frame.jpg"})`,
+            backgroundImage: `url(${"/img/frame.webp"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}
@@ -156,7 +156,7 @@ export default function RealDeal() {
         <div
             className='w-50-l mobile-photos oh'
             style={{
-            backgroundImage: `url(${"/img/roof.jpg"})`,
+            backgroundImage: `url(${"/img/roof.webp"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
             }}

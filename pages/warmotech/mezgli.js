@@ -14,14 +14,14 @@ export default function Mezgli() {
       <Head>
         <title>Warmotech | Mezgli | LM Group Buve</title>
         <meta name="og:title" content="Warmotech | Mezgli | LM Group Buve"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <meta name="og:description" content="Apskati plašo mezglu piedāvājumu no Warmotech!"/>        
+        <meta name="description" content="Apskati plašo mezglu piedāvājumu no Warmotech!" />
       </Head>
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Warmotech Mezgli" image="warmotech/bg3.jpg">
+      <Banner title="Warmotech Mezgli" image="warmotech/bg3.webp">
       Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
@@ -31,17 +31,17 @@ export default function Mezgli() {
     <div className='flex flex-column flex-row-l w-80 w-60-l warmotech-flying'>
             <div className='w-third-l mb4 mb0-l  animate__animated animate__fadeInLeft'>
                 <Link  href="/warmotech/poliframe">
-                    <img src="/img/poliframe.png"></img>
+                    <img src="/img/poliframe.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l mh4-l animate__animated animate__fadeInUp'>
                 <Link  href="/warmotech/paneli">
-                <img src="/img/paneli.png"></img>
+                <img src="/img/paneli.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l animate__animated animate__fadeInRight'>
                 <Link  href="/warmotech/mezgli">
-                <img src="/img/mezgli.png"></img>
+                <img src="/img/mezgli.webp"></img>
                 </Link>
             </div>
         </div>

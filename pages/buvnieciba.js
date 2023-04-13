@@ -12,13 +12,13 @@ export default function Buvnieciba() {
     <>
         <title>LM group Buve | Par Mums</title>
         <meta name="og:title" content="LM group Buve | Par Mums"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <meta name="og:description" content="Uzņēmums LM GROUP BUVE tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību."/>        
+        <meta name="description" content="Uzņēmums LM GROUP BUVE tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību." />
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Par LM Group Buve" image="bg2-alt.jpeg">
+      <Banner title="Par LM Group Buve" image="bg2-alt.webp">
       Uzņēmums LM GROUP BUVE tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
       <br/><br/>
       Mūsu profesionālā meistaru komanda parūpēsies, lai būvniecība neprasītu no Jums laiku, galvassāpes un liekus līdzekļus.
@@ -26,7 +26,7 @@ export default function Buvnieciba() {
 
 
     {/* START Services */}
-    <div className='flex flex-column items-center justify-center pv6 bg-marble-o10'>
+    <div className='flex flex-column items-center justify-center pv6 pb1-l bg-marble-o10'>
         <h2 className='w-80 w-90-l f2 gold tc mt0 mb2'>Būvniecības Pakalpojumi</h2>
         <p className='tc mt0 mb5 w-80 w-100-l'>Novadīsim un gudri pārvaldīsim visus Jūsu mājas būvniecības procesus!</p>
 

@@ -14,14 +14,14 @@ export default function Paneli() {
       <Head>
         <title>Warmotech | Paneļi | LM Group Buve</title>
         <meta name="og:title" content="Warmotech | Paneļi | LM Group Buve"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <meta name="og:description" content="Warmotech panelis ir materiāls ar izcilām tehniskajām īpašībām. Paneļi tiek ražoti no pārstrādāta efektīva poliuretāna (PIR). Pārstrādes un ražošanas laikā materiāls iegūst jaunas īpašības, tas kļūst mehāniski izturīgs, un ar labām siltumizolācijas īpašībām un ir mitrumizturīgs. Paneļi ir universāli, tos pielietojot būvniecības sektorā. "/>        
+        <meta name="description" content="Warmotech panelis ir materiāls ar izcilām tehniskajām īpašībām. Paneļi tiek ražoti no pārstrādāta efektīva poliuretāna (PIR). Pārstrādes un ražošanas laikā materiāls iegūst jaunas īpašības, tas kļūst mehāniski izturīgs, un ar labām siltumizolācijas īpašībām un ir mitrumizturīgs. Paneļi ir universāli, tos pielietojot būvniecības sektorā. " />
       </Head>
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Warmotech Paneļi" image="warmotech/bg2.jpg">
+      <Banner title="Warmotech Paneļi" image="warmotech/bg2.webp">
       Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
@@ -31,17 +31,17 @@ export default function Paneli() {
     <div className='flex flex-column flex-row-l w-80 w-60-l warmotech-flying'>
             <div className='w-third-l mb4 mb0-l  animate__animated animate__fadeInLeft'>
                 <Link  href="/warmotech/poliframe">
-                    <img src="/img/poliframe.png"></img>
+                    <img src="/img/poliframe.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l mh4-l animate__animated animate__fadeInUp'>
                 <Link  href="/warmotech/paneli">
-                <img src="/img/paneli.png"></img>
+                <img src="/img/paneli.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l animate__animated animate__fadeInRight'>
                 <Link  href="/warmotech/mezgli">
-                <img src="/img/mezgli.png"></img>
+                <img src="/img/mezgli.webp"></img>
                 </Link>
             </div>
         </div>
@@ -50,7 +50,7 @@ export default function Paneli() {
         <div className='flex flex-column items-center justify-center w-80 mt4-l mb4-l'>
             <div className='w-40-l flex justify-center mt3 mb4 mb0-l mt0-l'>
                 <div className='w-70'>
-                    <img src="/img/warmotech/paneli.png"></img>    
+                    <img src="/img/warmotech/paneli.webp"></img>    
                 </div>
             </div>
             <div className='w-80-l flex justify-center'>
@@ -68,8 +68,8 @@ export default function Paneli() {
                     <a className='gold link mb3 tc w-100 db tl-l' href="https://www.warmotech.lt/assets/doc/products/panels/warmotech-epd.pdf" target="_blank" rel="noopener noreferrer" title="EPD deklarācija"><i class="fa-solid fa-file-pdf"></i> EPD deklarācija</a>
                     <a className='gold link mb3 tc w-100 db tl-l' href="https://www.warmotech.lt/assets/doc/products/panels/warmotech-epd-summary.pdf" target="_blank" rel="noopener noreferrer" title="EPD kopsavilkums"><i class="fa-solid fa-file-pdf"></i> EPD kopsavilkums</a>
                     
-                    <img src="/img/warmotech/tabula-paneli.png" className='br3 mt3'></img>
-                    <img src="/img/warmotech/tabula-paneli-2.png" className='br3 mt3 mb5 mb0-l'></img>
+                    <img src="/img/warmotech/tabula-paneli.webp" className='br3 mt3'></img>
+                    <img src="/img/warmotech/tabula-paneli-2.webp" className='br3 mt3 mb5 mb0-l'></img>
                 </div>
             </div>
         </div>

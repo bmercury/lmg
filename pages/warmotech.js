@@ -16,14 +16,14 @@ export default function Warmotech() {
       <Head>
         <title>LM Group Buve | Warmotech</title>
         <meta name="og:title" content="LM Group Buve | Warmotech"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <meta name="og:description" content="Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci."/>        
+        <meta name="description" content="Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci." />
       </Head>
 
       <ContactsBar phone={kontakti.aleksandrs.phone} email={kontakti.aleksandrs.email}></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.aleksandrs.phone} email={kontakti.aleksandrs.email}></MobileNavigation>
-      <Banner title="Warmotech" image="warmotech/bg2.jpg">
+      <Banner title="Warmotech" image="warmotech/bg2.webp">
         Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
@@ -33,17 +33,17 @@ export default function Warmotech() {
         <div className='flex flex-column flex-row-l w-80 w-60-l warmotech-flying'>
             <div className='w-third-l mb4 mb0-l  animate__animated animate__fadeInLeft'>
                 <Link  href="/warmotech/poliframe">
-                    <img src="/img/poliframe.png"></img>
+                    <img src="/img/poliframe.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l mh4-l animate__animated animate__fadeInUp'>
                 <Link  href="/warmotech/paneli">
-                <img src="/img/paneli.png"></img>
+                <img src="/img/paneli.webp"></img>
                 </Link>
             </div>
             <div className='w-third-l mb4 mb0-l animate__animated animate__fadeInRight'>
                 <Link  href="/warmotech/mezgli">
-                <img src="/img/mezgli.png"></img>
+                <img src="/img/mezgli.webp"></img>
                 </Link>
             </div>
         </div>
@@ -53,8 +53,8 @@ export default function Warmotech() {
         <div className='flex flex-column flex-row-l justify-center w-80 mt4 mb4'>
             <div className='w-40-l flex justify-center'>
                 <div className='w-80-l'>
-                    <h3 className='b f2 gold tc tl-l mt0'>Stingrs materiāls, elastīgs risinājums</h3>
-                    <p className='arctic tc tl-l'>
+                    <h3 className='b f2 gold mt0'>Stingrs materiāls, elastīgs risinājums</h3>
+                    <p className='arctic'>
                     Piedāvājām dažādas Warmotech sistēmas:<br/><br/>
 
                     <div className='flex mb3'>
@@ -76,7 +76,7 @@ export default function Warmotech() {
 
             <div className='w-40-l flex justify-center mt5 mt0-l'>
                 <div className='w-80'>
-                    <img src="/img/warmotech-2.png"></img>    
+                    <img src="/img/warmotech-2.webp"></img>    
                 </div>
             </div>
         </div>
@@ -87,15 +87,15 @@ export default function Warmotech() {
         <div className='flex flex-column flex-row-l w-80 w-60-l mt4'>
             <div className='w-third-l'>
                 <h3 className='gold tc'>Augsta Mehāniskā Izturība</h3>
-                <img src="/img/wt1.png"></img>
+                <img src="/img/wt1.webp"></img>
             </div>
             <div className='w-third-l mh4-l'>
                 <h3 className='gold tc'>Uguns Noturība</h3>
-                <img src="/img/wt3.png"></img>
+                <img src="/img/wt3.webp"></img>
             </div>
             <div className='w-third-l'>
                 <h3 className='gold tc'>Laba Skaņas Izolācija</h3>
-                <img src="/img/wt2.png"></img>
+                <img src="/img/wt2.webp"></img>
             </div>
         </div>
     </div>

@@ -12,13 +12,13 @@ export default function Teriva() {
     <>
       <title>LM Group Buve | Teriva Pārsegums</title>
         <meta name="og:title" content="LM Group Buve | Teriva Pārsegums"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <meta name="og:description" content="TERIVA ir patentēta starpstāvu pārsegumu sistēma, kas atbilst Eiropas standartam LST EN 15037 un ir marķēta ar CE marķējumu."/>        
+        <meta name="description" content="TERIVA ir patentēta starpstāvu pārsegumu sistēma, kas atbilst Eiropas standartam LST EN 15037 un ir marķēta ar CE marķējumu." />
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Teriva Pārsegums" image="teriva-gal-1.png">
+      <Banner title="Teriva Pārsegums" image="teriva-gal-1.webp">
         TERIVA ir patentēta starpstāvu pārsegumu sistēma, kas atbilst Eiropas standartam LST EN 15037 un ir marķēta ar CE marķējumu.
         <br/><br/>
         TERIVA pārsegumu sistēmas sastāv no vieglām dzelzsbetona sijām, dobiem betona blokiem vai polistirola blokiem ( TERIVA LIGHT sistēmā ), kā arī monolīta betona pārklājuma, kas tiek izveidots jau pēc pārseguma sistēmas elementu uzstādīšanas. Šāda pārseguma konstrukcija ir viegla, izturīga un energofektīva, kas atbilst А, А+ un А++ energoefektivitātes klases prasībām.
@@ -117,10 +117,10 @@ export default function Teriva() {
 
     <div className='flex flex-column flex-row-l mb5 mb0-l'>
       <div className='w-100 w-50-l'>
-        <img src="/img/teriva-gal-1.png"></img>
+        <img src="/img/teriva-gal-1.webp"></img>
       </div>
       <div className='w-100 w-50-l'>
-        <img src="/img/teriva-gal-2.png"></img>
+        <img src="/img/teriva-gal-2.webp"></img>
       </div>
     </div>
 

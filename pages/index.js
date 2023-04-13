@@ -20,12 +20,12 @@ export default function Home() {
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner image="home.png" title="Būvniecības Pakalpojumi Un Materiāli"></Banner>
+      <Banner image="home.webp" title="Būvniecības Pakalpojumi Un Materiāli"></Banner>
 
       <div className='flex flex-column flex-row-l'>
         <div
           style={{
-            backgroundImage: `url(${"/img/bg2.jpeg"})`,
+            backgroundImage: `url(${"/img/bg2.webp"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover'
           }}
@@ -50,13 +50,13 @@ export default function Home() {
           <div className='w-100 w-50-l flex justify-center items-center  bg-marble-o5'>
             <div className='flex flex-column w-70 w-50-l mb3 mb0-l'>
                 <h2 className='f2 gold tc mb0 mt5 mt4-l'>Partneri</h2>
-                <img className='o-80' src="/img/partners.png"></img>
+                <img className='o-80' src="/img/partners.webp"></img>
             </div>
           </div>
         <div
           className='w-100 w-50-l oh mobile-photos'
           style={{
-            backgroundImage: `url(${"/img/office.jpg"})`,
+            backgroundImage: `url(${"/img/office.webp"})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: 'cover',
           }}
