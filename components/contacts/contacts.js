@@ -5,7 +5,7 @@ export default function Contacts() {
     return (
       <>
         <div id="kontakti" className={css.contacts+" flex flex-column items-center pb5 pv6-l"}>
-          <h2 className="f2 tc w-70 w-100-l">Kā Varam Tev Palīdzēt?</h2>
+          <h2 className="f2 tc w-70 w-100-l">Mūsu Profesionāļu Komanda</h2>
           <div className="w-90 w-50-l mt3">
             <div className="flex flex-column flex-row-l items-center items-start-l justify-center">
               <div className="w-third-l mb4 mb0-l flex flex-column tc arctic">

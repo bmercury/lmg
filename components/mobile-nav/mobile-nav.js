@@ -5,10 +5,10 @@ export default function MobileNavigation({phone=kontakti.matiss.phone, email=kon
     return (
       <>
         <div className={css.wrapper+" flex justify-around items-center pv3 ph2"}>
-            <a href={"mailto:"+email} className={css.mail+" w-third tc"}><i class="fa-sharp fa-solid fa-envelope"></i></a>
-            <a href={"tel:"+phone} className={css.phone+" w-third tc"}><i class="fa-solid fa-phone"></i></a>
-            <button id="hamburger" onClick={openNav} className={css.hamburger+" w-third"}><i class="fa-sharp fa-solid fa-bars"></i></button>
-            <button id="times" onClick={closeNav} className={css.hamburger+" dn w-third"}><i class="fa-sharp fa-solid fa-times"></i></button>
+            <a title="Rakstīt epastu" href={"mailto:"+email} className={css.mail+" w-third tc"}><i class="fa-sharp fa-solid fa-envelope"></i></a>
+            <a title="Zvanīt" href={"tel:"+phone} className={css.phone+" w-third tc"}><i class="fa-solid fa-phone"></i></a>
+            <button aria-label="Izvēlne" id="hamburger" onClick={openNav} className={css.hamburger+" w-third"}><i class="fa-sharp fa-solid fa-bars"></i></button>
+            <button aria-label="Aizvērt" id="times" onClick={closeNav} className={css.hamburger+" dn w-third"}><i class="fa-sharp fa-solid fa-times"></i></button>
         </div>
 
         <div id="drawer" className="drawer navclosed">
@@ -18,7 +18,7 @@ export default function MobileNavigation({phone=kontakti.matiss.phone, email=kon
                 <a className="arctic link" href="/realdeal" title="RealDeal Sadarbība">RealDeal</a>
                 <a className="arctic link" href="/warmotech" title="Warmotech Sadarbība">Warmotech</a>
                 <a className="arctic link" href="/teriva" title="Teriva Pārsegums">Teriva</a>
-                <a className="arctic link" href="#kontakti" title="LM Group Kontakti">Kontakti</a>
+                <a onClick={closeNav} id="contacts-button" className="arctic link" href="#kontakti" title="LM Group Kontakti">Kontakti</a>
             </nav>
         </div>
       </>
