@@ -58,10 +58,12 @@ $banner-height-large: 90vh;
 }
 
 .tint {
+    $tint-op-top: 0.7;
+    $tint-op-bottom: 0.2;
     position: absolute;
     width: 100vw;
     min-height: $banner-height;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.6));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,$tint-op-top), rgba(0,0,0,$tint-op-bottom));
 
     @media only screen and (min-height: 741px) {
         min-height: $banner-height-smaller;
