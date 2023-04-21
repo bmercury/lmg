@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/realdeal": "pages/realdeal.js",
-  "/": "pages/index.js",
   "/warmotech": "pages/warmotech.js",
-  "/buvnieciba": "pages/buvnieciba.js"
+  "/warmotech/paneli": "pages/warmotech/paneli.js"
 }
