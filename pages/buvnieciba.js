@@ -38,7 +38,7 @@ export default function Buvnieciba() {
                 </div>
                 <div className='w-100'>
                 <div className='w-100'>
-                    <h3 className='f4 gold tc mt0'>Mūrēšanas un karkasu montāžas Darbi</h3>
+                    <h3 className='f4 gold tc mt0'>Mūrēšanas un karkasu montāžas darbi</h3>
                 </div>
                     <h3 className='f4 gold tc mt0'>Fasādes apdares darbi</h3>
                 </div>

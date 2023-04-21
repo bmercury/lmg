@@ -23,7 +23,7 @@ export default function Warmotech() {
       <ContactsBar phone={kontakti.aleksandrs.phone} email={kontakti.aleksandrs.email}></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.aleksandrs.phone} email={kontakti.aleksandrs.email}></MobileNavigation>
-      <Banner title="Warmotech" image="warmotech/bg2.webp">
+      <Banner title="Warmotech" image="warmotech/bg1.webp">
         Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
@@ -75,7 +75,7 @@ export default function Warmotech() {
             </div>
 
             <div className='w-40-l flex justify-center mt5 mt0-l'>
-                <div className='w-80'>
+                <div className='w-80-l'>
                     <img src="/img/warmotech-2.webp"></img>    
                 </div>
             </div>
@@ -84,19 +84,27 @@ export default function Warmotech() {
 
         {/* <h3 className='arctic f3 mt6'>Apskati PDF Bukletus</h3> */}
         {/* END COLUMN */}
-        <div className='flex flex-column flex-row-l w-80 w-60-l mt4'>
+        <div className='flex flex-column items-end flex-row-l w-80 w-60-l mt4'>
             <div className='w-third-l'>
-                <h3 className='gold tc'>Augsta Mehāniskā Izturība</h3>
+                <h3 className='gold tc'>Virs cokola pacelšanas risinājumi</h3>
                 <img src="/img/wt1.webp"></img>
             </div>
             <div className='w-third-l mh4-l'>
-                <h3 className='gold tc'>Uguns Noturība</h3>
+                <h3 className='gold tc'>Ailes paplatinošie profili</h3>
                 <img src="/img/wt3.webp"></img>
             </div>
             <div className='w-third-l'>
-                <h3 className='gold tc'>Laba Skaņas Izolācija</h3>
+                <h3 className='gold tc'>HST un HSN sistēmas</h3>
                 <img src="/img/wt2.webp"></img>
             </div>
+        </div>
+    </div>
+
+    <div className='flex flex-column items-center'>
+        <div className='flex justify-center w-90 w-70-l mt4-l mb4-l'>
+                <div className='w-90 flex justify-center'>
+                    <img src="/img/warmotech/tabula-paneli-2.webp" className='br3 mt3 mb5 mb0-l'></img>
+                </div>
         </div>
     </div>
 

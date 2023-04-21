@@ -97,7 +97,7 @@ export default function RealDeal() {
         <div className='w-50-l pt4 pb5 flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
             <h3 className='b f3 gold tl'>“Dzīves kvalitāte un mikroklimats”<br/>ventilācijas risinājumi</h3>
-            <p className='arctic flex'><span className='gold mr2'>—</span>“Enervent” efektivitās rekuperācijas sistēmas</p>
+            <p className='arctic flex'><span className='gold mr2'>—</span>“Enervent” efektīvās rekuperācijas sistēmas</p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Augstākā snieguma iekārtas un gaisa vadi</p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Mitruma atguves maksimums līdz 78% </p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Maksimālā siltuma atguve līdz -38`C </p>

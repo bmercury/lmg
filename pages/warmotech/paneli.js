@@ -28,7 +28,7 @@ export default function Paneli() {
 
     <div className='flex flex-column items-center pv2 pt6-l bg-marble-o10'>
 
-    <div className='flex flex-column flex-row-l w-80 w-60-l warmotech-flying'>
+        <div className='flex flex-column flex-row-l w-80 w-60-l warmotech-flying'>
             <div className='w-third-l mb4 mb0-l  animate__animated animate__fadeInLeft'>
                 <Link  href="/warmotech/poliframe">
                     <img src="/img/poliframe.webp"></img>

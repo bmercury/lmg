@@ -2,9 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/teriva": "pages/teriva.js",
-  "/": "pages/index.js",
   "/realdeal": "pages/realdeal.js",
+  "/": "pages/index.js",
   "/warmotech": "pages/warmotech.js",
   "/buvnieciba": "pages/buvnieciba.js"
 }
