@@ -87,7 +87,7 @@ export default function Warmotech() {
         <div className='flex flex-column items-end flex-row-l w-80 w-60-l mt4'>
             <div className='w-third-l'>
                 <h3 className='gold tc'>Virs cokola pacelšanas risinājumi</h3>
-                <img src="/img/wt1.webp"></img>
+                <img src="/img/wt2.webp"></img>
             </div>
             <div className='w-third-l mh4-l'>
                 <h3 className='gold tc'>Ailes paplatinošie profili</h3>
@@ -95,7 +95,7 @@ export default function Warmotech() {
             </div>
             <div className='w-third-l'>
                 <h3 className='gold tc'>HST un HSN sistēmas</h3>
-                <img src="/img/wt2.webp"></img>
+                <img src="/img/wt1.webp"></img>
             </div>
         </div>
     </div>

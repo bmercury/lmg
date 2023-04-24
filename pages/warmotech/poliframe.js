@@ -12,8 +12,8 @@ export default function Poliframe() {
   return (
     <>
       <Head>
-        <title>Warmotech | Poliframe | LM Group Buve</title>
-        <meta name="og:title" content="Warmotech || Poliframe || LM Group Buve"/>
+        <title>Warmotech | Iznestās Logu Sistēmas | LM Group Buve</title>
+        <meta name="og:title" content="Warmotech || Iznestās Logu Sistēmas || LM Group Buve"/>
         <meta name="og:description" content="Warmotech Poliframe HDE, HDE FR profili un HDE Profili. Labākais risinājums Tavam mājoklim!"/>        
         <meta name="description" content="Warmotech Poliframe HDE, HDE FR profili un HDE Profili. Labākais risinājums Tavam mājoklim!" />
       </Head>
@@ -21,7 +21,7 @@ export default function Poliframe() {
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Warmotech Poliframe" image="warmotech/bg2.webp">
+      <Banner title="Iznestās Logu Sistēmas" image="warmotech/bg2.webp">
       Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci.
       </Banner>
 
