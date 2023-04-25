@@ -1,5 +1,6 @@
 import '@/styles/globals.scss'
 import Head from 'next/head'
+import Script from "next/script"
 
 export default function App({ Component, pageProps }) {
   return (
@@ -24,6 +25,25 @@ export default function App({ Component, pageProps }) {
         <meta name="theme-color" content="#ffffff"/>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
+
+        {/* Google Tag */}
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-5WEW18C68L"/>
+
+        <Script
+            id='google-analytics'
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-5WEW18C68L', {
+                  page_path: window.location.pathname,
+                });
+              `,
+              }}
+          />
+      
       </Head>
       <Component {...pageProps} />
     </>
