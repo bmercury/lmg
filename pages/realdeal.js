@@ -58,7 +58,7 @@ export default function RealDeal() {
                 </div>
             </div>
 
-            <div className='w-40-l flex justify-center mb5 mb0-l'>
+            <div className='w-40-l flex justify-center items-center-l mb5 mb0-l'>
                 <div className='w-70'>
                     <img src="/img/partners/realdeal.webp"></img>    
                 </div>

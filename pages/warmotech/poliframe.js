@@ -8,6 +8,8 @@ import MobileNavigation from '@/components/mobile-nav/mobile-nav'
 import Banner from '@/components/banner/banner'
 import Contacts from '@/components/contacts/contacts'
 
+import Product from "../../components/warmotech/product"
+
 export default function Poliframe() {
   return (
     <>
@@ -46,69 +48,77 @@ export default function Poliframe() {
             </div>
         </div>
 
-        {/* START COLUMN */}
-        <div className='flex flex-column-reverse flex-row-l justify-center w-80 mt4-l mb4-l'>
-            <div className='w-40-l flex justify-center'>
-                <div className='w-80-l'>
-                    <h3 className='b f2 gold tc tl-l mt0'>POLIFRAME HDE</h3>
-                    <p className='arctic tc tl-l'>
-                        Izmanto logu uzstādīšanai siltumizolācijas slānī; <br/><br/>
-                        Izgatavots ar iefrēzētiem atslēgas savienojumiem profila galos, vieglai un precīzai savienojuma izveidei vienam ar otru; <br/><br/>
-                        Standarta profila biezums - 85mm and 100mm.
-                    </p>
-                    {/* <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/poliframe-hde" target="_blank" rel="noopener noreferrer" title="Warmotech Poliframe HDE">Lasīt vairāk</a> */}
-                </div>
-            </div>
 
-            <div className='w-40-l flex justify-center mt3 mb4 mb0-l mt0-l'>
-                <div className='w-50'>
-                    <img src="/img/warmotech/poliframe-hde.webp"></img>    
-                </div>
-            </div>
-        </div>
+        <Product title="WARMOTECH PA FR" photo="warmotech/pa-fr.webp">
+            Profili izgatavoti no cieta viengabala „Warmotech“ paneļa; <br/><br/>
+            Dažādi profilu augstumi ļauj pacelt logus līdz vajadzīgajam grīdas līmenim; <br/><br/>
+            Profili ir ārkārtīgi spēcīgi, iztur lielas slodzes; <br/><br/>
+            Frēzēts pēc loga rāmja.
+        </Product>
 
-        {/* START COLUMN */}
-        <div className='flex flex-column flex-row-l justify-center w-80 mt4 mb4'>
-            <div className='w-40-l flex justify-center  mt3 mb4 mb0-l mt0-l'>
-                <div className='w-50'>
-                    <img src="/img/warmotech/hde-fr.webp"></img>    
-                </div>
-            </div>
-            <div className='w-40-l flex justify-center'>
-                <div className='w-80-l'>
-                    <h3 className='b f2 gold tc tl-l mt0'>HDE FR PROFILI</h3>
-                    <p className='arctic tc tl-l'>
-                        Izmanto vitrīnu un logu pacelšanai virs cokola; <br/><br/>
-                        Frēzēts un izgatavots atbilstoši nepieciešamajam loga profilam; <br/><br/>
-                        Standarta platums - 60mm un 70mm; <br/><br/>
-                        Izgriežams no paneļa vajadzīgajā augstumā.
-                    </p>
-                    {/* <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/hde-fr" target="_blank" rel="noopener noreferrer" title="Warmotech HDE FR">Lasīt vairāk</a> */}
-                </div>
-            </div>
+        <Product title="WARMOTECH PRO 80/90" photo="warmotech/pro-80-90.webp" reverse>
+            Izmanto logu uzstādīšanai siltumizolācijas slānī;  <br/><br/>
+            Profila uzstādīšanas dziļums – 80mm; <br/><br/>
+            Atbilst A++ klases prasībām.
+        </Product>
 
-        </div>
 
-        {/* START COLUMN */}
-        <div className='flex flex-column-reverse flex-row-l justify-center w-80 mt4 mb4'>
-            <div className='w-40-l flex justify-center'>
-                <div className='w-80-l'>
-                    <h3 className='b f2 gold tc tl-l mt0'>HDE PROFILI</h3>
-                    <p className='arctic tc tl-l'>
-                    Izmanto būvniecībā un rūpniecībā, kur nepieciešams silts un izturīgs materiāls; <br/><br/>
-                    Standarta platums - 60mm and 70mm; <br/><br/>
-                    Izgriežams no paneļa vajadzīgajā augstumā.
-                    </p>
-                    {/* <a className='gold tc w-100 db tl-l' href="https://www.warmotech.lt/lv/products/poliframe-profiliai/hde-pjaustiniai" target="_blank" rel="noopener noreferrer" title="Warmotech HDE Profili">Lasīt vairāk</a> */}
-                </div>
-            </div>
-            <div className='w-40-l flex justify-center mt0 mb4 mb0-l mt0-l'>
-                <div className='w-50'>
-                    <img src="/img/warmotech/hde.webp"></img>    
-                </div>
-            </div>
 
-        </div>
+        <Product title="WARMOTECH C" photo="warmotech/c.webp">
+            Izmanto vitrīnu un logu pacelšanai virs cokola; <br/><br/>
+            Fēzēts un izgatavots atbilstoši nepieciešamajam loga profilam; <br/><br/>
+            Vidū papildus siltināts;
+        </Product>
+
+        <Product title="WARMOTECH M FRAME" photo="warmotech/m-frame.webp" reverse>
+            Izmanto logu uzstādīšanai siltumizolācijas slānī, kad nepieciešama lielāka iekšējā ailes un palodzes daļa;  <br/><br/>
+            Profila uzstādīšanas dziļums 100-250mm; <br/><br/>
+            Sistēma sastāv no nerūsējošā tērauda stiprinājumiem, kronšteiniem un profiliem;<br/><br/>
+            Atbilst A++ klases prasībām.
+        </Product>
+
+
+
+        <Product title="WARMOTECH PA UNIVERSAL" photo="warmotech/pa-universal.webp">
+            Izmanto kā palodzes profilus vai loga paaugstināšanai līdz vajadzīgajam grīdas līmenim; <br/><br/>
+            Profiliem ir universāla frēzēšana, kas piemērota daudziem logu profiliem; <br/><br/>
+            Šie profili ar noteiktu augstumu vienmēr ir pieejami mūsu noliktavā.
+        </Product>
+
+        <Product title="WARMOTECH PA" photo="warmotech/pa.webp" reverse>
+            Profili tiek izgatavoti no viena masīva vai dažām līmēto paneļu kārtām;  <br/><br/>
+            Pieejami dažādi biezumi un platumi; <br/><br/>
+            Profilus var frēzēt.
+        </Product>
+
+
+
+
+        <Product title="WARMOTECH HSN" photo="warmotech/hsn.webp">
+            Izmanto bīdāmo durvju sistēmu pacelšanai virs cokola līdz vajadzīgajam augstumam; <br/><br/>
+            Fēzēts atbilstoši nepieciešamajai logu sistēmai;
+        </Product>
+        <Product title="POLIFRAME HDE" photo="warmotech/poliframe-hde.webp" reverse>
+            Izmanto logu uzstādīšanai siltumizolācijas slānī; <br/><br/>
+            Izgatavots ar iefrēzētiem atslēgas savienojumiem profila galos, vieglai un precīzai savienojuma izveidei vienam ar otru; <br/><br/>
+            Standarta profila biezums - 85mm and 100mm.
+        </Product>
+
+
+
+
+        <Product title="HDE FR PROFILI" photo="warmotech/hde-fr.webp">
+            Izmanto vitrīnu un logu pacelšanai virs cokola; <br/><br/>
+            Frēzēts un izgatavots atbilstoši nepieciešamajam loga profilam; <br/><br/>
+            Standarta platums - 60mm un 70mm; <br/><br/>
+            Izgriežams no paneļa vajadzīgajā augstumā.
+        </Product>
+        <Product title="HDE PROFILI" photo="warmotech/hde.webp" reverse>
+            Izmanto būvniecībā un rūpniecībā, kur nepieciešams silts un izturīgs materiāls; <br/><br/>
+            Standarta platums - 60mm and 70mm; <br/><br/>
+            Izgriežams no paneļa vajadzīgajā augstumā.
+        </Product>
+                
 
     </div>
 

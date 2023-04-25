@@ -37,7 +37,7 @@ export default function Home() {
             <h2 className='f2 gold mt2 mt4-l'>Kādēļ Izvēlēties Mūs?</h2>
             <p className='arctic'><span className='gold mr2'>—</span>Daudzu gadu pieredze</p>
             <p className='arctic'><span className='gold mr2'>—</span>Garantēta darba kvalitāte</p>
-            <p className='arctic'><span className='gold mr2'>—</span>Augsta precizitāte un ātra Izpilde</p>
+            <p className='arctic'><span className='gold mr2'>—</span>Augsta precizitāte un ātra izpilde</p>
             <p className='arctic'><span className='gold mr2'>—</span>Profesionāla komanda</p>
             <p className='arctic'><span className='gold mr2'>—</span>Zināšanas un attieksme</p>
             <p className='arctic'><span className='gold mr2'>—</span>Jūsu saskaņotā tāme paliks nemainīga</p>
