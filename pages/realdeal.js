@@ -80,7 +80,7 @@ export default function RealDeal() {
             }}
         >
         </div>
-        <div className='w-50-l pt4 pb5 pt0-l pb0-l flex justify-center items-center bg-marble-o5'>
+        <div className='w-50-l pt4 pb4 pt0-l pb0-l flex justify-center items-center bg-marble-o5'>
             <div className='w-90 w-70-l'>
             <h3 className='b f3 gold tl'>“Sauss ir silts” ProClima risinājumi</h3>
             
@@ -94,7 +94,7 @@ export default function RealDeal() {
 
     {/* RIGHT */}
     <div className='flex flex-column-reverse flex-row-l'>
-        <div className='w-50-l pt4 pb5 flex justify-center items-center bg-marble-o5'>
+        <div className='w-50-l pt4 pb4 flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
             <h3 className='b f3 gold tl'>“Dzīves kvalitāte un mikroklimats”<br/>ventilācijas risinājumi</h3>
             <p className='arctic flex'><span className='gold mr2'>—</span>“Enervent” efektīvās rekuperācijas sistēmas</p>
@@ -128,7 +128,7 @@ export default function RealDeal() {
             }}
         >
         </div>
-        <div className='w-50-l pt4 pb5 pt0-l pb0-l flex justify-center items-center bg-marble-o5'>
+        <div className='w-50-l pt4 pb4 pt0-l pb0-l flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
             <h3 className='b f3 gold tl'>Bloki un ar koka karkasiem<br/>saistīti jautājumi</h3>
             <p className='arctic flex'><span className='gold mr2'>—</span>Materiālu iegāde (visas veida bloki)</p>
@@ -143,7 +143,7 @@ export default function RealDeal() {
 
     {/* RIGHT */}
     <div className='flex flex-column-reverse flex-row-l'>
-        <div className='w-50-l pt4 pb5 pa0-l flex justify-center items-center bg-marble-o5'>
+        <div className='w-50-l pt4 pb4 pa0-l flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
             <h3 className='b f3 gold tl'>Jumta segumi un cementšķiedras<br/> fasādes risinājumi</h3>
             <p className='arctic flex'><span className='gold mr2'>—</span>Jumta kopnes un to montāža “Freimans”</p>
