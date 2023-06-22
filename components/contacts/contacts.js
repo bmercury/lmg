@@ -15,16 +15,16 @@ export default function Contacts() {
                 <span className="gray mt2 f6">{kontakti.matiss.role}</span>
               </div>
               <div className="w-third-l mb4 mb0-l flex flex-column tc arctic">
-                <h3>{kontakti.roberts.name}</h3>
-                <a className="link" href={"tel:"+kontakti.roberts.phone} title="Zvanīt">{kontakti.roberts.phone}</a>
-                <a className="link" href={"mailto:"+kontakti.roberts.email} title="Sūtīt e-pastu">{kontakti.roberts.email}</a>
-                <span className="gray mt2 f6">{kontakti.roberts.role}<br/>{kontakti.roberts.role2}</span>
-              </div>
-              <div className="w-third-l mb4 mb0-l flex flex-column tc arctic">
                 <h3>{kontakti.aleksandrs.name}</h3>
                 <a className="link" href={"tel:"+kontakti.aleksandrs.phone} title="Zvanīt">{kontakti.aleksandrs.phone}</a>
                 <a className="link" href={"mailto:"+kontakti.aleksandrs.email} title="Sūtīt e-pastu">{kontakti.aleksandrs.email}</a>
                 <span className="gray mt2 f6">{kontakti.aleksandrs.role}</span>
+              </div>
+              <div className="w-third-l mb4 mb0-l flex flex-column tc arctic">
+                <h3>{kontakti.roberts.name}</h3>
+                <a className="link" href={"tel:"+kontakti.roberts.phone} title="Zvanīt">{kontakti.roberts.phone}</a>
+                <a className="link" href={"mailto:"+kontakti.roberts.email} title="Sūtīt e-pastu">{kontakti.roberts.email}</a>
+                <span className="gray mt2 f6">{kontakti.roberts.role}<br/>{kontakti.roberts.role2}</span>
               </div>
             </div>
 
