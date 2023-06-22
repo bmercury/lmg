@@ -9,23 +9,23 @@ import Contacts from '@/components/contacts/contacts'
 
 import {kontakti} from "../data.json"
 
-export default function RealDeal() {
+export default function ParMums() {
   return (
     <>
       <Head>
-      <title>LM Group Buve | RealDeal</title>
-        <meta name="og:title" content="LM Group Buve | RealDeal"/>
-        <meta name="og:description" content="RealDeal - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c."/>        
-        <meta name="description" content="RealDeal - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c." />
+      <title>LM GROUP BUVE | Par Mums</title>
+        <meta name="og:title" content="LM GROUP BUVE | Par Mums"/>
+        <meta name="og:description" content="LM GROUP BUVE - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c."/>        
+        <meta name="description" content="LM GROUP BUVE - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c." />
       </Head>
 
       <ContactsBar phone={kontakti.roberts.phone} email={kontakti.roberts.email}></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.roberts.phone} email={kontakti.roberts.email}></MobileNavigation>
-      <Banner title="RealDeal - Jūsu īstais darījums" image="bg3.webp">
+      <Banner title="LM GROUP BUVE - Jūsu īstais darījums" image="bg3.webp">
         Zināšanu, risinājumu un augstvērtīgu būvniecības materiālu sadaļa, kurā mēs rūpējamies par Jūsu māju vai ēku tehnisko risinājumu piemērotību. Konstrukcijas sastāva, mezglu atbilstības un norobežojošo slāņu jautājumi -  sīki par visu, kas veidos Jūsu ēkas energo efektīvās ekspluotācijas priekšnosacījumus un reālu nākotnes ekonomisko mijiedarbību.
         <br/><br/>
-        Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c.
+        Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ALUJET, Ytong, BUDMAT, Jameshardie u.c.
       </Banner>
 
 
@@ -59,8 +59,8 @@ export default function RealDeal() {
             </div>
 
             <div className='w-40-l flex justify-center items-center-l mb5 mb0-l'>
-                <div className='w-70'>
-                    <img src="/img/partners/realdeal.webp"></img>    
+                <div className='w-80 w-90-l'>
+                    <img src="/img/lmg.webp"></img>    
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ export default function RealDeal() {
         </div>
         <div className='w-50-l pt4 pb4 pt0-l pb0-l flex justify-center items-center bg-marble-o5'>
             <div className='w-90 w-70-l'>
-            <h3 className='b f3 gold tl'>“Sauss ir silts” ProClima risinājumi</h3>
+            <h3 className='b f3 gold tl'>“Sauss ir silts” ALUJET risinājumi</h3>
             
             <p className='arctic flex'><span className='gold mr2'>—</span>Tvaika slāņu sistēmas griestiem un sienām</p>
             <p className='arctic flex'><span className='gold mr2'>—</span>Mitrum drošības maksimums arējos slāņos</p>

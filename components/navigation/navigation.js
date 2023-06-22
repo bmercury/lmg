@@ -17,8 +17,8 @@ export default function Navigation() {
           </div>
           <nav className={css.navigation+" dn db-l"}>
             <Link  className={router.pathname == "/" ? "active" : "navlink"} href="/">Sākums</Link>
+            <Link className={router.pathname == "/parmums" ? "active" : "navlink"} href="/parmums">Par Mums</Link>
             <Link className={router.pathname == "/buvnieciba" ? "active" : "navlink"} href="/buvnieciba">Būvniecība</Link>
-            <Link className={router.pathname == "/realdeal" ? "active" : "navlink"} href="/realdeal">RealDeal</Link>
             <Link className={router.pathname == "/warmotech" ? "active" : "navlink"} href="/warmotech">Warmotech</Link>
             <Link className={router.pathname == "/teriva" ? "active" : "navlink"} href="/teriva">Teriva</Link>
             <Link className="navlink" href="#kontakti">Kontakti</Link>
