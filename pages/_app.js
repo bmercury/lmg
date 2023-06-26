@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     <>
     <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="LM Group Buve, Būvniecība, RealDeal, Warmotech, ProClima, Lunos, Paroc, Materiāli, Privātmājas"/>
+        <meta name="keywords" content="LM Group Buve, Būvniecība, Warmotech, ProClima, Lunos, Paroc, Materiāli, Privātmājas"/>
         <meta name="language" content="LV" />
         <meta name="robots" content="index,follow" />
         <meta charset="utf-8"/>

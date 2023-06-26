@@ -19,7 +19,7 @@ export default function ParMums() {
         <meta name="description" content="LM GROUP BUVE - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c." />
       </Head>
 
-      <ContactsBar phone={kontakti.roberts.phone} email={kontakti.roberts.email}></ContactsBar>
+      <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.roberts.phone} email={kontakti.roberts.email}></MobileNavigation>
       <Banner title="LM GROUP BUVE - Jūsu īstais darījums" image="bg3.webp">
