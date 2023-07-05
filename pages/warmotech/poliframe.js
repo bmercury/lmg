@@ -14,8 +14,8 @@ export default function Poliframe() {
   return (
     <>
       <Head>
-        <title>Warmotech | Iznestās Logu Sistēmas | LM Group Buve</title>
-        <meta name="og:title" content="Warmotech || Iznestās Logu Sistēmas || LM Group Buve"/>
+        <title>Warmotech | Iznestās Logu Sistēmas | LM GROUP</title>
+        <meta name="og:title" content="Warmotech || Iznestās Logu Sistēmas || LM GROUP"/>
         <meta name="og:description" content="Warmotech Poliframe HDE, HDE FR profili un HDE Profili. Labākais risinājums Tavam mājoklim!"/>        
         <meta name="description" content="Warmotech Poliframe HDE, HDE FR profili un HDE Profili. Labākais risinājums Tavam mājoklim!" />
       </Head>

@@ -42,7 +42,7 @@ export default function Contacts() {
 
 
 
-        <h2 className="f2 tc w-70 w-100-l mt5-l pt4">SIA "LM GROUP BUVE"</h2>
+        <h2 className="f2 tc w-70 w-100-l mt5-l pt4">SIA "LM GROUP"</h2>
         <div className="w-80 w-40-l flex flex-column flex-row-l items-center items-start-l justify-center mt3 mb4">
               <div className="w-100 mb4 mb0-l dn flex-l flex-column tc tl-l arctic">
                 <span className="mt2">PVN reģistrācijas numurs</span>
@@ -64,7 +64,7 @@ export default function Contacts() {
 
 
         <footer className="tc pb4">
-          <span>© {new Date().getFullYear()} LM GROUP BUVE</span>
+          <span>© {new Date().getFullYear()} LM GROUP</span>
         </footer>
       </>
     )

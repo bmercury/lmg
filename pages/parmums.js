@@ -13,16 +13,16 @@ export default function ParMums() {
   return (
     <>
       <Head>
-      <title>LM GROUP BUVE | Par Mums</title>
-        <meta name="og:title" content="LM GROUP BUVE | Par Mums"/>
-        <meta name="og:description" content="LM GROUP BUVE - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c."/>        
-        <meta name="description" content="LM GROUP BUVE - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c." />
+      <title>LM GROUP | Par Mums</title>
+        <meta name="og:title" content="LM GROUP | Par Mums"/>
+        <meta name="og:description" content="LM GROUP - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c."/>        
+        <meta name="description" content="LM GROUP - Vieta kur zināšanas un risinājumu sinerģija sniedz būvniecības sirdsmieru! Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ProClima, Ytong, Budmat, Enervent un Cedral u.c." />
       </Head>
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.roberts.phone} email={kontakti.roberts.email}></MobileNavigation>
-      <Banner title="LM GROUP BUVE - Jūsu īstais darījums" image="bg3.webp">
+      <Banner title="LM GROUP - Jūsu īstais darījums" image="bg3.webp">
         Zināšanu, risinājumu un augstvērtīgu būvniecības materiālu sadaļa, kurā mēs rūpējamies par Jūsu māju vai ēku tehnisko risinājumu piemērotību. Konstrukcijas sastāva, mezglu atbilstības un norobežojošo slāņu jautājumi -  sīki par visu, kas veidos Jūsu ēkas energo efektīvās ekspluotācijas priekšnosacījumus un reālu nākotnes ekonomisko mijiedarbību.
         <br/><br/>
         Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ALUJET, Ytong, BUDMAT, Jameshardie u.c.

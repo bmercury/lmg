@@ -12,8 +12,8 @@ export default function Mezgli() {
   return (
     <>
       <Head>
-        <title>Warmotech | Mezgli | LM Group Buve</title>
-        <meta name="og:title" content="Warmotech | Mezgli | LM Group Buve"/>
+        <title>Warmotech | Mezgli | LM GROUP</title>
+        <meta name="og:title" content="Warmotech | Mezgli | LM GROUP"/>
         <meta name="og:description" content="Apskati plašo mezglu piedāvājumu no Warmotech!"/>        
         <meta name="description" content="Apskati plašo mezglu piedāvājumu no Warmotech!" />
       </Head>

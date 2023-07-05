@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LM Group Buve - Tavs Būvniecības Partneris</title>
-        <meta name="og:title" content="LM Group Buve - Tavs Būvniecības Partneris"/>
-        <meta name="og:description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
-        <meta name="description" content="LM Group Buve - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
+        <title>LM GROUP - Tavs Būvniecības Partneris</title>
+        <meta name="og:title" content="LM GROUP - Tavs Būvniecības Partneris"/>
+        <meta name="og:description" content="LM GROUP - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!"/>        
+        <meta name="description" content="LM GROUP - Privātmāju būvniecības pakalpojumi, būvmateriāli, konsultācijas un daudz kas cits. Piezvani!" />
       </Head>
 
       <ContactsBar></ContactsBar>

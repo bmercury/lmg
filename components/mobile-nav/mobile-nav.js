@@ -18,7 +18,7 @@ export default function MobileNavigation({phone=kontakti.matiss.phone, email=kon
                 <a className="arctic link" href="/buvnieciba" title="Būvniecības Pakalpojumi">Būvniecība</a>
                 <a className="arctic link" href="/warmotech" title="Warmotech Sadarbība">Warmotech</a>
                 <a className="arctic link" href="/teriva" title="Teriva Pārsegums">Teriva</a>
-                <a onClick={closeNav} id="contacts-button" className="arctic link" href="#kontakti" title="LM Group Kontakti">Kontakti</a>
+                <a onClick={closeNav} id="contacts-button" className="arctic link" href="#kontakti" title="LM GROUP Kontakti">Kontakti</a>
             </nav>
         </div>
       </>

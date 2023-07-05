@@ -10,16 +10,16 @@ import Contacts from '@/components/contacts/contacts'
 export default function Buvnieciba() {
   return (
     <>
-        <title>LM group Buve | Par Mums</title>
-        <meta name="og:title" content="LM group Buve | Par Mums"/>
-        <meta name="og:description" content="Uzņēmums LM GROUP BUVE tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību."/>        
-        <meta name="description" content="Uzņēmums LM GROUP BUVE tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību." />
+        <title>LM GROUP | Par Mums</title>
+        <meta name="og:title" content="LM GROUP | Par Mums"/>
+        <meta name="og:description" content="Uzņēmums LM GROUP tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību."/>        
+        <meta name="description" content="Uzņēmums LM GROUP tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību." />
 
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
-      <Banner title="Par LM Group Buve" image="bg2-alt.webp">
-      Uzņēmums LM GROUP BUVE tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
+      <Banner title="Par LM GROUP" image="bg2-alt.webp">
+      Uzņēmums LM GROUP tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
       <br/><br/>
       Mūsu profesionālā meistaru komanda parūpēsies, lai būvniecība neprasītu no Jums laiku, galvassāpes un liekus līdzekļus.
       </Banner>
@@ -124,7 +124,7 @@ export default function Buvnieciba() {
     </div>
 
     <div className='flex justify-center mv5 mv0-l'>
-        <a className='button-gold pa3' target="_blank" href="https://www.facebook.com/lmgroupbuve/reviews/" title="Atstāj atsauksmi Facebook">Atstāj Atsauksmi!</a>
+        <a className='button-gold pa3' target="_blank" href="https://www.facebook.com/lmgrouplatvija/reviews/" title="Atstāj atsauksmi Facebook">Atstāj Atsauksmi!</a>
     </div>
     {/* END Reviews */}
 
