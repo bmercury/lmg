@@ -46,15 +46,15 @@ export default function Contacts() {
         <div className="w-80 w-40-l flex flex-column flex-row-l items-center items-start-l justify-center mt3 mb4">
               <div className="w-100 mb4 mb0-l dn flex-l flex-column tc tl-l arctic">
                 <span className="mt2">PVN reģistrācijas numurs</span>
-                <span className="mt2">Juridiskā adrese</span>
+                <span className="mt2">Biroja adrese</span>
                 <span className="mt2">Banka</span>
                 <span className="mt2">SWIFT</span>
                 <span className="mt2">Konta numurs</span>
               </div>
 
-              <div className="w-100 w-70-l mb4 mb0-l flex flex-column tc tl-l arctic">
+              <div className="w-100 w-80-l mb4 mb0-l flex flex-column tc tl-l arctic">
               <span className="mt2 mb3 mb0-l"><span className="db dn-l pv2 ">PVN reģistrācijas numurs</span> <i className="gray">LV40103860128</i></span>
-              <span className="mt2 mb3 mb0-l"><span className="db dn-l pv2 ">Juridiskā adrese</span><i className="gray">Krasta iela 95, Rīga, LV-1019</i></span>
+              <span className="mt2 mb3 mb0-l"><span className="db dn-l pv2 ">Biroja adrese</span><i className="gray">Maskavas iela 491, Rīga, LV-1063</i></span>
               <span className="mt2 mb3 mb0-l"><span className="db dn-l pv2 ">Banka</span><i className="gray">AS “Luminor Bank”</i></span>
               <span className="mt2 mb3 mb0-l"><span className="db dn-l pv2 ">SWIFT</span><i className="gray">RIKOLV2X</i></span>
               <span className="mt2"><span className="db dn-l pv2">Konta numurs</span><i className="gray">LV52 RIKO 0001 0801 7021 7</i></span>
