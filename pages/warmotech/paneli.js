@@ -12,8 +12,8 @@ export default function Paneli() {
   return (
     <>
       <Head>
-        <title>Warmotech | Paneļi | LM GROUP</title>
-        <meta name="og:title" content="Warmotech | Paneļi | LM GROUP"/>
+        <title>Warmotech | Paneļi | LM GROUP HOLDING</title>
+        <meta name="og:title" content="Warmotech | Paneļi | LM GROUP HOLDING"/>
         <meta name="og:description" content="Warmotech panelis ir materiāls ar izcilām tehniskajām īpašībām. Paneļi tiek ražoti no pārstrādāta efektīva poliuretāna (PIR). Pārstrādes un ražošanas laikā materiāls iegūst jaunas īpašības, tas kļūst mehāniski izturīgs, un ar labām siltumizolācijas īpašībām un ir mitrumizturīgs. Paneļi ir universāli, tos pielietojot būvniecības sektorā. "/>        
         <meta name="description" content="Warmotech panelis ir materiāls ar izcilām tehniskajām īpašībām. Paneļi tiek ražoti no pārstrādāta efektīva poliuretāna (PIR). Pārstrādes un ražošanas laikā materiāls iegūst jaunas īpašības, tas kļūst mehāniski izturīgs, un ar labām siltumizolācijas īpašībām un ir mitrumizturīgs. Paneļi ir universāli, tos pielietojot būvniecības sektorā. " />
       </Head>

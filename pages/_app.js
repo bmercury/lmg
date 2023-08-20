@@ -7,13 +7,13 @@ export default function App({ Component, pageProps }) {
     <>
     <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="LM GROUP, Būvniecība, Warmotech, ProClima, Lunos, Paroc, Materiāli, Privātmājas"/>
+        <meta name="keywords" content="LM GROUP HOLDING, Būvniecība, Warmotech, ProClima, Lunos, Paroc, Materiāli, Privātmājas"/>
         <meta name="language" content="LV" />
         <meta name="robots" content="index,follow" />
         <meta charset="utf-8"/>
         <meta http-equiv="cache-control" content="no-cache"/>     
         <meta name="og:url" content="https://www.lmgroup.lv"/>
-        <meta name="og:site_name" content="LM GROUP"/>
+        <meta name="og:site_name" content="LM GROUP HOLDING"/>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/img/fav/apple-touch-icon.png?v=1"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/img/fav/favicon-32x32.png?v=1"/>

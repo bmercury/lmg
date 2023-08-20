@@ -10,8 +10,8 @@ import Contacts from '@/components/contacts/contacts'
 export default function Teriva() {
   return (
     <>
-      <title>LM GROUP | Teriva Pārsegums</title>
-        <meta name="og:title" content="LM GROUP | Teriva Pārsegums"/>
+      <title>LM GROUP HOLDING | Teriva Pārsegums</title>
+        <meta name="og:title" content="LM GROUP HOLDING | Teriva Pārsegums"/>
         <meta name="og:description" content="TERIVA ir patentēta starpstāvu pārsegumu sistēma, kas atbilst Eiropas standartam LST EN 15037 un ir marķēta ar CE marķējumu."/>        
         <meta name="description" content="TERIVA ir patentēta starpstāvu pārsegumu sistēma, kas atbilst Eiropas standartam LST EN 15037 un ir marķēta ar CE marķējumu." />
 

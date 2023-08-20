@@ -14,8 +14,8 @@ export default function Warmotech() {
   return (
     <>
       <Head>
-        <title>LM GROUP | Warmotech</title>
-        <meta name="og:title" content="LM GROUP | Warmotech"/>
+        <title>LM GROUP HOLDING | Warmotech</title>
+        <meta name="og:title" content="LM GROUP HOLDING | Warmotech"/>
         <meta name="og:description" content="Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci."/>        
         <meta name="description" content="Warmotech ir silts, efektīvs un stingrs logu termiskās zonas stiprināšanas un aukstuma tiltu lauzošs risinājums. Vienlaicīgi sniedzot maksimālās slodzes un snieguma garantu, gan loga ražotājam, gan katram būvēt gribētājam. Tas ļauj gudri ietaupīt un paaugstināt kā paša loga efektivitātes tā kopējo ēkas termisko vērtības bilanci." />
       </Head>
