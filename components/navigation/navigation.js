@@ -19,7 +19,6 @@ export default function Navigation() {
             <Link  className={router.pathname == "/" ? "active" : "navlink"} href="/">Sākums</Link>
             <Link className={router.pathname == "/parmums" ? "active" : "navlink"} href="/parmums">Par Mums</Link>
             <Link className={router.pathname == "/buvnieciba" ? "active" : "navlink"} href="/buvnieciba">Būvniecība</Link>
-            <Link className={router.pathname == "/warmotech" ? "active" : "navlink"} href="/warmotech">Warmotech</Link>
             <Link className="navlink" href="#kontakti">Kontakti</Link>
           </nav>
         </div>
