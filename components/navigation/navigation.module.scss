@@ -34,8 +34,9 @@ $navbar-padding: 0.3rem;
 
 .logo {
     width: 50vw;
+    filter: saturate(0.8);
 
     @media only screen and (min-width: 960px) {
-        width: 14vw;
+        width: 20vw;
     }
 }
