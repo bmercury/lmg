@@ -19,7 +19,7 @@ export default function Buvnieciba() {
       <Navigation></Navigation>
       <MobileNavigation></MobileNavigation>
       <Banner title="Par LM GROUP HOLDING" image="bg2-alt.webp">
-      Uzņēmums LM GROUP HOLDING tika dibināts 2005. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
+      Uzņēmums LM GROUP HOLDING tika dibināts 2015. gada 10. janvārī un šobrīd jau 8. gadu veic gan lielus gan mazus būvprojektus Rīgā un Rīgas Rajonā. Mēs piedāvājam visus ar būvniecību saistītos risinājumus, galvenokārt privātmāju būvniecību.
       <br/><br/>
       Mūsu profesionālā meistaru komanda parūpēsies, lai būvniecība neprasītu no Jums laiku, galvassāpes un liekus līdzekļus.
       </Banner>

@@ -23,9 +23,9 @@ export default function ParMums() {
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.roberts.phone} email={kontakti.roberts.email}></MobileNavigation>
       <Banner title="LM GROUP HOLDING - Jūsu īstais darījums" image="bg3.webp">
-        Zināšanu, risinājumu un augstvērtīgu būvniecības materiālu sadaļa, kurā mēs rūpējamies par Jūsu māju vai ēku tehnisko risinājumu piemērotību. Konstrukcijas sastāva, mezglu atbilstības un norobežojošo slāņu jautājumi -  sīki par visu, kas veidos Jūsu ēkas energo efektīvās ekspluotācijas priekšnosacījumus un reālu nākotnes ekonomisko mijiedarbību.
-        <br/><br/>
-        Augsti funkcionējošu materiālu pielietojums no tādiem pasaules ražotājiem kā ALUJET, Ytong, BUDMAT, Jameshardie u.c.
+      Mēs novērtējam, ka esat izvēlējušies mūs, kā savu būvniecības sadarbības partneri. Kā vadošais nozares uzņēmums mēs specializējamies augstākās klases profesionālu risinājumu nodrošināšanā, kas pielāgoti būvniecības ekspertu unikālajām prasībām. Mūsu apņemšanās sasniegt izcilību un inovācijas ir nostiprinājusi mūs kā uzticamu partneri celtnieku, būvuzņēmēju, arhitektu un inženieru vidū.
+      <br/><br/>
+      Kā atbildīgi būvniecības nozares locekļi mēs aktīvi veicinām ilgtspējīgu praksi un videi draudzīgus risinājumus. Mūsu apņemšanās rūpēties par vidi liek mums atrast un piedāvāt videi draudzīgus produktus, kas palīdz samazināt jūsu projektu oglekļa dioksīda emisijas nospiedumu.
       </Banner>
 
 
