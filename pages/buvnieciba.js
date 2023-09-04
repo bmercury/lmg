@@ -26,7 +26,7 @@ export default function Buvnieciba() {
 
 
     {/* START Services */}
-    <div className='flex flex-column items-center justify-center pv6 pb5-l bg-marble-o10'>
+    {/* <div className='flex flex-column items-center justify-center pv6 pb5-l bg-marble-o10'>
         <h2 className='w-80 w-90-l f2 gold tc mt0 mb2'>Būvniecības Pakalpojumi</h2>
         <p className='tc mt0 mb5 w-80 w-100-l'>Novadīsim un gudri pārvaldīsim visus Jūsu mājas būvniecības procesus!</p>
 
@@ -58,11 +58,12 @@ export default function Buvnieciba() {
         </div>
 
 
-    </div>
+    </div> */}
     {/* END Services */}
 
     {/* START Reviews */}
     <div className='flex flex-column justify-center items-center pb6-l pt5-l'>
+    <h2 className='w-80 w-90-l f2 gold tc mt5 mt2-l mb2'>Atsauksmes</h2>
 
         <div className='flex flex-column flex-row-l justify-around w-80-l pt3-l'>
             <div className={"review-item w-50-l pa3 pa4-l ma3 mb0"}>

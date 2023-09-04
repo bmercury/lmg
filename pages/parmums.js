@@ -22,18 +22,18 @@ export default function ParMums() {
       <ContactsBar></ContactsBar>
       <Navigation></Navigation>
       <MobileNavigation phone={kontakti.roberts.phone} email={kontakti.roberts.email}></MobileNavigation>
-      <Banner title="LM GROUP HOLDING - Jūsu īstais darījums" image="bg3.webp">
+      <Banner title="LM GROUP HOLDING" image="bg3.webp">
       Mēs novērtējam, ka esat izvēlējušies mūs, kā savu būvniecības sadarbības partneri. Kā vadošais nozares uzņēmums mēs specializējamies augstākās klases profesionālu risinājumu nodrošināšanā, kas pielāgoti būvniecības ekspertu unikālajām prasībām. Mūsu apņemšanās sasniegt izcilību un inovācijas ir nostiprinājusi mūs kā uzticamu partneri celtnieku, būvuzņēmēju, arhitektu un inženieru vidū.
       <br/><br/>
       Kā atbildīgi būvniecības nozares locekļi mēs aktīvi veicinām ilgtspējīgu praksi un videi draudzīgus risinājumus. Mūsu apņemšanās rūpēties par vidi liek mums atrast un piedāvāt videi draudzīgus produktus, kas palīdz samazināt jūsu projektu oglekļa dioksīda emisijas nospiedumu.
       </Banner>
 
 
-    <div className='flex flex-column items-center pv6'>
+    {/* <div className='flex flex-column items-center pv6'> */}
 
 
         {/* START COLUMN */}
-        <div className='flex flex-column-reverse flex-row-l justify-center w-90 w-80-l'>
+        {/* <div className='flex flex-column-reverse flex-row-l justify-center w-90 w-80-l'>
             <div className='w-40-l flex justify-center'>
                 <div className='w-90'>
                     <h3 className='b f3 f2-l gold tl mt0'>Nepērc cenu - izzini risinājumu</h3>
@@ -63,14 +63,14 @@ export default function ParMums() {
                     <img src="/img/lmg.webp"></img>    
                 </div>
             </div>
-        </div>
+        </div> */}
 
         {/* <h3 className='arctic f3 mt6'>Apskati PDF Bukletus</h3> */}
         {/* END COLUMN */}
-    </div>
+    {/* </div> */}
 
     {/* LEFT */}
-    <div className='flex flex-column flex-row-l'>
+    {/* <div className='flex flex-column flex-row-l'>
         <div
             className='w-50-l mobile-photos oh'
             style={{
@@ -89,11 +89,11 @@ export default function ParMums() {
             <p className='arctic flex'><span className='gold mr2'>—</span>Grūti aizsniedzamu vietu hermetizācija un ēkas blīvums</p>
             </div>
         </div>
-    </div>
+    </div> */}
     {/* LEFT */}
 
     {/* RIGHT */}
-    <div className='flex flex-column-reverse flex-row-l'>
+    {/* <div className='flex flex-column-reverse flex-row-l'>
         <div className='w-50-l pt4 pb4 flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
             <h3 className='b f3 gold tl'>“Dzīves kvalitāte un mikroklimats”<br/>ventilācijas risinājumi</h3>
@@ -114,11 +114,11 @@ export default function ParMums() {
             }}
         >
         </div>
-    </div>
+    </div> */}
     {/* RIGHT */}
 
     {/* LEFT */}
-    <div className='flex flex-column flex-row-l'>
+    {/* <div className='flex flex-column flex-row-l'>
         <div
             className='w-50-l mobile-photos oh'
             style={{
@@ -138,11 +138,11 @@ export default function ParMums() {
             <p className='arctic flex'><span className='gold mr2'>—</span>Piegāde uz objektu </p>
             </div>
         </div>
-    </div>
+    </div> */}
     {/* LEFT */}
 
     {/* RIGHT */}
-    <div className='flex flex-column-reverse flex-row-l'>
+    {/* <div className='flex flex-column-reverse flex-row-l'>
         <div className='w-50-l pt4 pb4 pa0-l flex justify-center items-center bg-marble-o5'>
         <div className='w-90 w-70-l'>
             <h3 className='b f3 gold tl'>Jumta segumi un cementšķiedras<br/> fasādes risinājumi</h3>
@@ -162,7 +162,7 @@ export default function ParMums() {
             }}
         >
         </div>
-    </div>
+    </div> */}
     {/* RIGHT */}
 
 
