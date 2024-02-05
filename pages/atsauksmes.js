@@ -25,7 +25,7 @@ export default function Reviews() {
 
       {/* START Reviews */}
     <div className='flex flex-column justify-center items-center pb4 pt4 pt6-l'>
-    <h2 className='w-80 w-90-l f2 gold tc mt5 mt2-l mb2'>Lūdzu, atstāj mums savu atsauksmi!</h2>
+    <h2 className='w-80 w-90-l f2 gold tc mt5 mt2-l mb2'>Mums rūp Tavs viedoklis. <br/> Lūdzu, atstāj mums savu atsauksmi!</h2>
     </div>
 
     <div className='flex flex-column flex-row-l ph7-l pb5 pb4-l mh5 mh5-l'>
